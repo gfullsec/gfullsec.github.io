@@ -1,5 +1,13 @@
-[Home](index.html) | [About](about.html) | [Journey](journey.html) | [Suite](suite.html) | [Contact](contact.html) | [<img src="https://flagcdn.com/w20/es.png" alt="Español" title="Change language to Spanish">](es/index.html)
+<link rel="stylesheet" href="assets/css/style.css">
 
+<div style="float:right;">
+  <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+  <a href="es/index.html" title="Change language to Spanish">
+    <img src="https://flagcdn.com/w20/es.png" alt="Español">
+  </a>
+</div>
+
+[Home](index.html) | [About](about.html) | [Journey](journey.html) | [Suite](suite.html) | [Contact](contact.html)
 
 # Security Analysis Suite — Portfolio by Guillermo R.S.
 
@@ -107,3 +115,19 @@ During Week 2, I also introduced an additional module: **CVE‑Hunter**, a custo
 
 I am Guillermo R.S., a developer transitioning into cybersecurity with a strong focus on Blue Team defensive analysis, vulnerability assessment, OSINT tooling, and structured documentation.
 
+<script>
+  const root = document.documentElement;
+  const btn = document.getElementById('theme-toggle');
+
+  const stored = localStorage.getItem('theme');
+  const initial = stored || 'dark';
+  root.dataset.theme = initial;
+  btn.textContent = initial === 'dark' ? '☀️' : '🌙';
+
+  btn.onclick = () => {
+    const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    root.dataset.theme = next;
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  };
+</script>

@@ -1,4 +1,14 @@
-[Inicio](index.html) | [Sobre mí](about.html) | [Trayectoria](journey.html) | [Suite](suite.html) | [Contacto](contact.html) | [<img src="https://flagcdn.com/w20/gb.png" alt="English" title="Cambiar idioma a inglés">](../journey.html)
+<link rel="stylesheet" href="../assets/css/style.css">
+
+<div style="float:right;">
+  <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+  <a href="../index.html" title="Cambiar idioma a inglés">
+    <img src="https://flagcdn.com/w20/gb.png" alt="English">
+  </a>
+</div>
+
+[Inicio](index.html) | [Sobre mí](about.html) | [Trayectoria](journey.html) | [Suite](suite.html) | [Contacto](contact.html)
+
 
 # La Trayectoria de 8 Semanas
 
@@ -71,3 +81,21 @@ Esta página documenta el progreso completo del Plan Acelerado de 8 Semanas para
 - Adaptación del CV  
 - Aplicación a empresas  
 - Preparación de entrevistas
+
+<script>
+  const root = document.documentElement;
+  const btn = document.getElementById('theme-toggle');
+
+  const stored = localStorage.getItem('theme');
+  const initial = stored || 'dark';
+  root.dataset.theme = initial;
+  btn.textContent = initial === 'dark' ? '☀️' : '🌙';
+
+  btn.onclick = () => {
+    const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    root.dataset.theme = next;
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  };
+</script>
+

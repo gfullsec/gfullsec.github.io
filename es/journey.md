@@ -1,74 +1,101 @@
-[Home](index.html) | [About](about.html) | [Journey](journey.html) | [Suite](suite.html) | [Contact](contact.html) | [<img src="https://flagcdn.com/w20/es.png" alt="Español" title="Change language to Spanish">](es/index.html)
+<link rel="stylesheet" href="../assets/css/style.css">
+
+<div style="float:right;">
+  <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+  <a href="../index.html" title="Cambiar idioma a inglés">
+    <img src="https://flagcdn.com/w20/gb.png" alt="English">
+  </a>
+</div>
+
+[Inicio](index.html) | [Sobre mí](about.html) | [Trayectoria](journey.html) | [Suite](suite.html) | [Contacto](contact.html)
 
 
-# The 8‑Week Journey
+# La Trayectoria de 8 Semanas
 
-This page documents the full progression of the 8‑Week Accelerated Plan for Transitioning into Cybersecurity.
-
----
-
-## Week 1 — Installation and Network Audit
-- Ubuntu 26.04 installation  
-- BIOS configuration  
-- Base tools setup  
-- Full Nmap audit  
-- Bash audit script  
-- Professional network report  
-- Additional module: WRT54G
+Esta página documenta el progreso completo del Plan Acelerado de 8 Semanas para la Transición a Ciberseguridad.
 
 ---
 
-## Week 2 — Vulnerabilities and CVEs
-- OpenVAS installation  
-- Network vulnerability scanning  
-- CVE correlation  
-- Vulnerability classification  
-- Professional vulnerability report  
-- Additional module: CVE‑Hunter
+## Semana 1 — Instalación y Auditoría de Red
+- Instalación de Ubuntu 26.04  
+- Configuración de BIOS  
+- Instalación de herramientas base  
+- Auditoría completa con Nmap  
+- Script Bash de auditoría  
+- Informe profesional de red  
+- Módulo adicional: WRT54G
 
 ---
 
-## Week 3 — System Hardening
-- Hardening Ubuntu with Lynis  
-- Hardening Windows 11  
-- Security checklist  
-- Start of portfolio construction
+## Semana 2 — Vulnerabilidades y CVEs
+- Instalación de OpenVAS  
+- Escaneo de vulnerabilidades  
+- Correlación de CVEs  
+- Clasificación de vulnerabilidades  
+- Informe profesional  
+- Módulo adicional: CVE‑Hunter
 
 ---
 
-## Week 4 — Professional Security Lab
-- VM creation  
+## Semana 3 — Hardening de Sistemas
+- Hardening de Ubuntu con Lynis  
+- Hardening de Windows 11  
+- Checklist de seguridad  
+- Inicio del portfolio
+
+---
+
+## Semana 4 — Laboratorio Profesional
+- Creación de máquinas virtuales  
 - Metasploitable + Juice Shop  
-- Internal network  
-- Lab documentation
+- Red interna  
+- Documentación del laboratorio
 
 ---
 
-## Week 5 — Security Scripting
-- Bash scripts  
-- Python scripts  
-- Documentation
+## Semana 5 — Scripting de Seguridad
+- Scripts Bash  
+- Scripts Python  
+- Documentación
 
 ---
 
-## Week 6 — SOC and Log Analysis
-- Log analysis  
-- Anomaly detection  
-- Incident simulation  
-- SOC report
+## Semana 6 — SOC y Análisis de Logs
+- Análisis de logs  
+- Detección de anomalías  
+- Simulación de incidente  
+- Informe SOC
 
 ---
 
-## Week 7 — Basic DevSecOps
+## Semana 7 — DevSecOps Básico
 - SAST + DAST  
-- Dependency scanning  
-- Container scanning  
-- Pipeline documentation
+- Escaneo de dependencias  
+- Escaneo de contenedores  
+- Documentación del pipeline
 
 ---
 
-## Week 8 — Portfolio and Job Applications
-- Complete portfolio  
-- CV adaptation  
-- Job applications  
-- Interview preparation
+## Semana 8 — Portfolio y Aplicación a Empresas
+- Portfolio completo  
+- Adaptación del CV  
+- Aplicación a empresas  
+- Preparación de entrevistas
+
+<script>
+  const root = document.documentElement;
+  const btn = document.getElementById('theme-toggle');
+
+  const stored = localStorage.getItem('theme');
+  const initial = stored || 'dark';
+  root.dataset.theme = initial;
+  btn.textContent = initial === 'dark' ? '☀️' : '🌙';
+
+  btn.onclick = () => {
+    const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    root.dataset.theme = next;
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  };
+</script>
+
