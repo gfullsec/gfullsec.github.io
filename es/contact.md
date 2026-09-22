@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 
 <header class="hero-banner">
-  <img src="..assets/images/banner-gfullsec-es.png" alt="Cybersecurity Portfolio — by Guillermo R.S." />
+  <img src="../assets/images/banner-gfullsec-es.png" alt="Cybersecurity Portfolio — by Guillermo R.S." />
 </header>
 
 <nav class="navbar">
