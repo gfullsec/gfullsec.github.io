@@ -1,5 +1,11 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 
+<title>Portfolio de Ciberseguridad — Guillermo R.S.</title>
+
+<header class="hero-banner">
+  <img src="assets/images/banner-gfullsec-es.png" alt="Cybersecurity Portfolio — by Guillermo R.S." />
+</header>
+
 <nav class="navbar">
   <div class="nav-left">
     <a href="index.html">Inicio</a>
@@ -15,10 +21,6 @@
     </a>
   </div>
 </nav>
-
-<header class="hero-banner">
-  <img src="assets/images/banner-gfullsec.png" alt="Cybersecurity Portfolio — by Guillermo R.S." />
-</header>
 
 
 # Security Analysis Suite
