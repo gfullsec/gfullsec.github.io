@@ -1,13 +1,20 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 
-<div style="float:right;">
-  <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
-  <a href="../index.html" title="Cambiar idioma a inglés">
-    <img src="https://flagcdn.com/w20/gb.png" alt="English">
-  </a>
-</div>
-
-[Inicio](index.html) | [Sobre mí](about.html) | [Trayectoria](journey.html) | [Suite](suite.html) | [Contacto](contact.html)
+<nav class="navbar">
+  <div class="nav-left">
+    <a href="index.html">Inicio</a>
+    <a href="about.html">Sobre mí</a>
+    <a href="journey.html">Trayectoria</a>
+    <a href="suite.html">Suite</a>
+    <a href="contact.html">Contacto</a>
+  </div>
+  <div class="nav-right">
+    <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    <a href="../index.html" title="Change language to English">
+      <img src="https://flagcdn.com/w20/gb.png" alt="English">
+    </a>
+  </div>
+</nav>
 
 
 # Security Analysis Suite

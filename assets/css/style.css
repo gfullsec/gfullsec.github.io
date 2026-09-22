@@ -52,3 +52,54 @@ h1, h2, h3 {
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Menú a la izquierda */
+.nav-left a {
+  background-color: var(--border);
+  color: var(--text);
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  margin-right: 0.4rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+[data-theme="dark"] .nav-left a:hover {
+  background-color: var(--accent);
+  color: #fff;
+}
+
+[data-theme="light"] .nav-left a:hover {
+  background-color: #e6edf3;
+  color: var(--text);
+}
+
+/* Botones a la derecha */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-left: auto;
+}
+
+.nav-right button {
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.nav-right img {
+  vertical-align: middle;
+}
+
