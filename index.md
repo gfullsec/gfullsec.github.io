@@ -16,6 +16,11 @@
   </div>
 </nav>
 
+<header class="hero-banner">
+  <img src="assets/images/banner-gfullsec.png" alt="Cybersecurity Portfolio — by Guillermo R.S." />
+</header>
+
+
 # Security Analysis Suite — Portfolio by Guillermo R.S.
 
 Welcome to my cybersecurity portfolio.  

@@ -16,7 +16,6 @@
   </div>
 </nav>
 
-[Home](index.html) | [About](about.html) | [Journey](journey.html) | [Suite](suite.html) | [Contact](contact.html)
 
 # Security Analysis Suite
 

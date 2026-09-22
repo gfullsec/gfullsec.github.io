@@ -16,6 +16,10 @@
   </div>
 </nav>
 
+<header class="hero-banner">
+  <img src="assets/images/banner-gfullsec.png" alt="Cybersecurity Portfolio — by Guillermo R.S." />
+</header>
+
 # The 8‑Week Journey
 
 This page documents the full progression of the 8‑Week Accelerated Plan for Transitioning into Cybersecurity.
