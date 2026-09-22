@@ -16,6 +16,9 @@
   </div>
 </nav>
 
+<header class="hero-banner">
+  <img src="assets/images/banner-gfullsec.png" alt="Cybersecurity Portfolio — by Guillermo R.S." />
+</header>
 
 
 # La Trayectoria de 8 Semanas

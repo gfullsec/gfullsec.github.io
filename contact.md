@@ -16,6 +16,10 @@
   </div>
 </nav>
 
+<header class="hero-banner">
+  <img src="assets/images/banner-gfullsec.png" alt="Cybersecurity Portfolio — by Guillermo R.S." />
+</header>
+
 # Contact
 
 You can reach me through GitHub:
