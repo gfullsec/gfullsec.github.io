@@ -1,5 +1,13 @@
-[Home](index.html) | [About](about.html) | [Journey](journey.html) | [Suite](suite.html) | [Contact](contact.html) | [<img src="https://flagcdn.com/w20/es.png" alt="Español" title="Change language to Spanish">](es/index.html)
+<link rel="stylesheet" href="assets/css/style.css">
 
+<div style="float:right;">
+  <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+  <a href="es/index.html" title="Change language to Spanish">
+    <img src="https://flagcdn.com/w20/es.png" alt="Español">
+  </a>
+</div>
+
+[Home](index.html) | [About](about.html) | [Journey](journey.html) | [Suite](suite.html) | [Contact](contact.html)
 
 # Security Analysis Suite
 
@@ -35,3 +43,20 @@ Log analysis, anomaly detection, incident simulation.
 
 ### DevSecOps (Week 7)
 Basic CI/CD security pipeline.
+
+<script>
+  const root = document.documentElement;
+  const btn = document.getElementById('theme-toggle');
+
+  const stored = localStorage.getItem('theme');
+  const initial = stored || 'dark';
+  root.dataset.theme = initial;
+  btn.textContent = initial === 'dark' ? '☀️' : '🌙';
+
+  btn.onclick = () => {
+    const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    root.dataset.theme = next;
+    localStorage.setItem('theme', next);
+    btn.textContent = next === 'dark' ? '☀️' : '🌙';
+  };
+</script>

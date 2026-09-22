@@ -1,0 +1,54 @@
+:root {
+  /* Tema claro (por si el usuario lo elige) */
+  --bg: #ffffff;
+  --text: #111418;
+  --accent: #58a6ff;
+  --border: #d0d7de;
+}
+
+/* Tema oscuro por defecto (lo activaremos con data-theme="dark") */
+[data-theme="dark"] {
+  --bg: #0d1117;
+  --text: #e6edf3;
+  --accent: #58a6ff;
+  --border: #30363d;
+}
+
+/* Aplicar variables al cuerpo y elementos básicos */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0 1.5rem;
+}
+
+/* Enlaces */
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Barra de navegación (los enlaces que ya tienes) */
+body > p:first-of-type {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Separadores */
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 1.5rem 0;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: var(--text);
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
