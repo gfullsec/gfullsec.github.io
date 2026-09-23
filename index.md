@@ -6,111 +6,87 @@
 <div id="header" data-include="/assets/includes/header.html"></div>
 
 
-# Security Analysis Suite — Portfolio by Guillermo R.S.
+## Welcome to my cybersecurity portfolio
 
-Welcome to my cybersecurity portfolio.  
-This site documents my **8‑Week Accelerated Plan for Transitioning into Cybersecurity**, a structured and intensive project designed to demonstrate real defensive security skills through practical, fully documented modules.
 
-Each week of the plan includes:
+This space brings together my work in security engineering, defensive analysis, and technical tooling development.  
+Here you will find real Blue Team–oriented projects, structured documentation, and tools created to improve detection, correlation, and vulnerability analysis.
 
-- clear objectives  
-- technical tasks  
-- professional deliverables  
-- complete documentation  
-- associated repositories  
-- real learning progression  
 
-During Week 2, I also introduced an additional module: **CVE‑Hunter**, a custom tool for CVE correlation and vulnerability analysis.
+My approach is based on building practical, reproducible solutions with a focus on continuous improvement.  
+I work with analysis workflows, scripting, and documentation that reflect how I understand security: clarity, precision, and structure.
 
----
 
-## What You Will Find Here
+This portfolio is part of an **Accelerated Plan for Transitioning into Cybersecurity**, a self‑designed program that is currently in progress.  
+If you want to explore the full journey, you can do so in the **Trajectory** section.
 
-- Home network audit (Week 1)  
-- Vulnerability analysis with OpenVAS (Week 2)  
-- CVE correlation tooling (Week 2 — CVE‑Hunter)  
-- Linux and Windows hardening (Week 3)  
-- Professional security lab with VMs (Week 4)  
-- Security scripting in Bash and Python (Week 5)  
-- SOC and log analysis (Week 6)  
-- Basic DevSecOps pipeline (Week 7)  
-- Portfolio completion and job applications (Week 8)
 
 ---
 
-## The 8‑Week Accelerated Plan
 
-### Week 1 — Installation and Network Audit
-- Installation of **Ubuntu 26.04 LTS**  
-- BIOS configuration (Secure Boot, AHCI)  
-- Base tools setup  
-- Full Nmap audit of the home network  
-- Bash audit script  
-- Professional network report  
-- **Additional module:** WRT54G analysis
+## What you will find here
 
-### Week 2 — Vulnerabilities and CVEs
-- Installation and configuration of OpenVAS  
-- Scanning home network devices  
-- CVE correlation (NVD, CVE Details, ExploitDB)  
-- Impact‑based vulnerability classification  
-- Professional vulnerability report  
-- **Additional module:** CVE‑Hunter
 
-### Week 3 — System Hardening
-- Hardening Ubuntu with Lynis  
-- Hardening Windows 11  
-- Professional security checklist  
-- **Start of portfolio construction (GitHub + GitHub Pages)**
+- **Tools for CVE analysis and correlation**  
 
-### Week 4 — Professional Security Lab
-- Creation of VMs (Kali, Ubuntu Server, Windows 11)  
-- Installation of Metasploitable and OWASP Juice Shop  
-- Internal network configuration  
-- Full lab documentation
+  
+- **Security audits and vulnerability assessments**  
 
-### Week 5 — Security Scripting
-- Bash scripts for scans and port analysis  
-- Python scripts for CVEs, logs, and traffic  
-- Technical documentation for each script
+  
+- **Linux and Windows system hardening**  
 
-### Week 6 — SOC and Log Analysis
-- Analysis of syslog, auth.log, firewall logs, DNS  
-- Detection of anomalies  
-- Incident simulation  
-- Complete SOC report
+  
+- **Professional lab environments for SOC, DevSecOps, and AppSec**  
 
-### Week 7 — Basic DevSecOps
-- Pipeline with SAST + DAST  
-- Dependency scanning  
-- Container scanning  
-- Pipeline documentation
+  
+- **Bash and Python scripting for security**  
 
-### Week 8 — Portfolio and Job Applications
-- **Complete technical portfolio (GitHub + GitHub Pages)**  
-- CV adapted to security roles  
-- Job applications  
-- Technical interview preparation
+  
+- **Log analysis and threat detection**  
+
+  
+- **Basic DevSecOps pipelines (SAST, DAST, dependencies, and containers)**  
+
+  
+- **Technical documentation and structured workflows**  
+
+  
+- **Private projects and custom tooling** (including developments created prior to this plan, useful for database analysis)
+
+
+- **Public CV and recommendation letters**  
+
+  
+- **Detailed report of the process, evolution, and block‑by‑block experiences**
+
 
 ---
 
-## Security Analysis Suite — Modules
 
-- Network Audit (Week 1)  
-- WRT54G (Week 1 — additional module)  
-- Full Network Scan (Week 2)  
-- CVE‑Hunter (Week 2 — additional module)  
-- Hardening (Week 3)  
-- Security Lab (Week 4)  
-- Scripting (Week 5)  
-- SOC (Week 6)  
-- DevSecOps (Week 7)
+## Portfolio sections
 
----
 
-## About Me
+- **Home** — Overview, portfolio vision, and content structure
 
-I am Guillermo R.S., a developer transitioning into cybersecurity with a strong focus on Blue Team defensive analysis, vulnerability assessment, OSINT tooling, and structured documentation.
+
+- **About** — Professional profile, public CV, and recommendation letter 
+
+
+- **Journey** — My technical and professional evolution throughout the accelerated transition into cybersecurity roles
+
+
+- **Suite** — Tools and projects
+
+
+- **Reports** — Professional audit, vulnerability, and SOC reports
+
+
+- **R&D Tools** — Private tools and internal security developments
+
+
+- **Contact** — Collaborations and inquiries
+
+
 
 <script src="assets/js/header.js?v=2"></script>
 
