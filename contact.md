@@ -11,5 +11,5 @@ You can reach me through GitHub:
 
 **https://github.com/gfullsec**
 
-<script src="assets/js/header.js"></script>
+<script src="assets/js/header.js?v=2"></script>
 

@@ -112,5 +112,5 @@ During Week 2, I also introduced an additional module: **CVE‑Hunter**, a custo
 
 I am Guillermo R.S., a developer transitioning into cybersecurity with a strong focus on Blue Team defensive analysis, vulnerability assessment, OSINT tooling, and structured documentation.
 
-<script src="assets/js/header.js"></script>
+<script src="assets/js/header.js?v=2"></script>
 

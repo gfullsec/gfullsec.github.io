@@ -11,6 +11,6 @@ Puedes contactar conmigo a través de GitHub:
 
 **https://github.com/gfullsec**
 
-<script src="../assets/js/header.js"></script>
+<script src="../assets/js/header.js?v=2"></script>
 
 

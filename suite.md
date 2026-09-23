@@ -41,5 +41,5 @@ Log analysis, anomaly detection, incident simulation.
 ### DevSecOps (Week 7)
 Basic CI/CD security pipeline.
 
-<script src="assets/js/header.js"></script>
+<script src="assets/js/header.js?v=2"></script>
 

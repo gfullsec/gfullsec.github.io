@@ -20,7 +20,7 @@ if (generatedTitle) {
 }
 
 if (header) {
-  fetch(header.dataset.include)
+  fetch(`${header.dataset.include}?v=5`)
     .then(response => {
       if (!response.ok) {
         throw new Error(`Unable to load header: ${response.status}`);
@@ -41,7 +41,6 @@ if (header) {
       header.after(navbar);
 
       root.dataset.theme = initial;
-      button.textContent = initial === 'dark' ? '☀️' : '🌙';
 
       navbar.querySelectorAll('.nav-left a').forEach(link => {
         const linkPath = new URL(link.href, window.location.href).pathname.replace(/\/$/, '/index.html');
@@ -56,7 +55,6 @@ if (header) {
         const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
         root.dataset.theme = next;
         localStorage.setItem('theme', next);
-        button.textContent = next === 'dark' ? '☀️' : '🌙';
       };
 
       menuToggle.onclick = () => {
