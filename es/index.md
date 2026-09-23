@@ -88,6 +88,6 @@ Si quieres conocer el viaje completo, puedes hacerlo en la sección **Trayectori
 
 
 
-<script src="../assets/js/header.js?v=6"></script>
+<script src="../assets/js/header.js?v=7"></script>
 
 

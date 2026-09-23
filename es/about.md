@@ -78,6 +78,6 @@ Esta página documenta el progreso completo del Plan Acelerado de 8 Semanas para
 - Aplicación a empresas  
 - Preparación de entrevistas
 
-<script src="../assets/js/header.js?v=6"></script>
+<script src="../assets/js/header.js?v=7"></script>
 
 

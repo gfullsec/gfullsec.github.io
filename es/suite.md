@@ -41,6 +41,6 @@ Análisis de logs, detección de anomalías, simulación de incidente.
 ### DevSecOps (Semana 7)
 Pipeline básico de CI/CD con seguridad integrada.
 
-<script src="../assets/js/header.js?v=6"></script>
+<script src="../assets/js/header.js?v=7"></script>
 
 

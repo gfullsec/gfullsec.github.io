@@ -20,5 +20,5 @@ My professional approach is based on:
 
 This portfolio reflects my progression through an 8‑week accelerated plan designed to build real‑world defensive security skills.
 
-<script src="assets/js/header.js?v=6"></script>
+<script src="assets/js/header.js?v=7"></script>
 
