@@ -21,11 +21,21 @@ if (header) {
 
       const root = document.documentElement;
       const button = header.querySelector('#theme-toggle');
+      const currentPath = window.location.pathname.replace(/\/$/, '/index.html');
       const stored = localStorage.getItem('theme');
       const initial = stored || 'dark';
 
       root.dataset.theme = initial;
       button.textContent = initial === 'dark' ? '☀️' : '🌙';
+
+      header.querySelectorAll('.nav-left a').forEach(link => {
+        const linkPath = new URL(link.href, window.location.href).pathname.replace(/\/$/, '/index.html');
+
+        if (linkPath === currentPath) {
+          link.classList.add('active');
+          link.setAttribute('aria-current', 'page');
+        }
+      });
 
       button.onclick = () => {
         const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
