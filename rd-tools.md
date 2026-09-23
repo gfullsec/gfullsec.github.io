@@ -5,11 +5,11 @@
 
 <div id="header" data-include="/assets/includes/header.html"></div>
 
-# Contact
+## R&D Tools — Private tools and internal security developments
 
-You can reach me through GitHub:
 
-**https://github.com/gfullsec**
+
+
+
 
 <script src="assets/js/header.js?v=6"></script>
-

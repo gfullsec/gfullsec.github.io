@@ -5,11 +5,9 @@
 
 <div id="header" data-include="/assets/includes/header.html"></div>
 
-# Contact
 
-You can reach me through GitHub:
+## Professional audit, vulnerability, and SOC reports
 
-**https://github.com/gfullsec**
+
 
 <script src="assets/js/header.js?v=6"></script>
-

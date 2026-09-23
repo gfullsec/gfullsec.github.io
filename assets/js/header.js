@@ -20,7 +20,7 @@ if (generatedTitle) {
 }
 
 if (header) {
-  fetch(`${header.dataset.include}?v=5`)
+  fetch(`${header.dataset.include}?v=6`)
     .then(response => {
       if (!response.ok) {
         throw new Error(`Unable to load header: ${response.status}`);
@@ -34,13 +34,20 @@ if (header) {
       const navbar = header.querySelector('.navbar');
       const button = navbar.querySelector('#theme-toggle');
       const menuToggle = navbar.querySelector('.menu-toggle');
+      const languageLink = navbar.querySelector('.nav-right > a');
       const currentPath = window.location.pathname.replace(/\/$/, '/index.html');
+      const isSpanish = currentPath === '/es/index.html' || currentPath.startsWith('/es/');
+      const pageName = currentPath.replace(/^\/es\//, '').replace(/^\//, '');
       const stored = localStorage.getItem('theme');
       const initial = stored || 'dark';
 
       header.after(navbar);
 
       root.dataset.theme = initial;
+
+      languageLink.href = isSpanish
+        ? pageName === 'index.html' ? '/' : `/${pageName}`
+        : pageName === 'index.html' ? '/es/index.html' : `/es/${pageName}`;
 
       navbar.querySelectorAll('.nav-left a').forEach(link => {
         const linkPath = new URL(link.href, window.location.href).pathname.replace(/\/$/, '/index.html');

@@ -5,12 +5,9 @@
 
 <div id="header" data-include="../assets/includes/header-es.html"></div>
 
-# Contacto
 
-Puedes contactar conmigo a través de GitHub:
+## Informes profesionales de auditoría, vulnerabilidades y SOC
 
-**https://github.com/gfullsec**
+
 
 <script src="../assets/js/header.js?v=6"></script>
-
-

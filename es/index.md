@@ -77,7 +77,7 @@ Si quieres conocer el viaje completo, puedes hacerlo en la sección **Trayectori
 - **Suite** — Herramientas y proyectos
 
 
-- **Reports** — Informes profesionales de auditoría, vulnerabilidades y SOC 
+- **Informes** — Informes profesionales de auditoría, vulnerabilidades y SOC 
 
 
 - **Tooling de R&D** — Herramientas privadas y desarrollos internos orientados a seguridad y análisis
@@ -86,6 +86,6 @@ Si quieres conocer el viaje completo, puedes hacerlo en la sección **Trayectori
 - **Contacto** — Colaboraciones y consultas
 
 
-<script src="../assets/js/header.js?v=2"></script>
+<script src="../assets/js/header.js?v=6"></script>
 
 
