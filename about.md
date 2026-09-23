@@ -1,7 +1,7 @@
 ---
 ---
 
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css?v=2">
 
 <div id="header" data-include="/assets/includes/header.html"></div>
 
@@ -20,5 +20,6 @@ My professional approach is based on:
 
 This portfolio reflects my progression through an 8‑week accelerated plan designed to build real‑world defensive security skills.
 
-<script src="assets/js/header.js?v=7"></script>
+<div id="footer" data-include="/assets/includes/footer.html"></div>
+<script src="assets/js/header.js?v=8"></script>
 

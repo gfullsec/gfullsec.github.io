@@ -32,7 +32,7 @@ if (generatedTitle) {
 }
 
 if (header) {
-  fetch(`${header.dataset.include}?v=7`)
+  fetch(`${header.dataset.include}?v=8`)
     .then(response => {
       if (!response.ok) {
         throw new Error(`Unable to load header: ${response.status}`);
@@ -94,6 +94,22 @@ if (header) {
           menuToggle.setAttribute('aria-expanded', 'false');
         };
       });
+    })
+    .catch(error => console.error(error));
+}
+
+const footer = document.getElementById('footer');
+
+if (footer) {
+  fetch(`${footer.dataset.include}?v=8`)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Unable to load footer: ${response.status}`);
+      }
+      return response.text();
+    })
+    .then(data => {
+      footer.innerHTML = data;
     })
     .catch(error => console.error(error));
 }

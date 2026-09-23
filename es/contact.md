@@ -1,7 +1,7 @@
 ---
 ---
 
-<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/style.css?v=2">
 
 <div id="header" data-include="../assets/includes/header-es.html"></div>
 
@@ -11,6 +11,7 @@ Puedes contactar conmigo a través de GitHub:
 
 **https://github.com/gfullsec**
 
-<script src="../assets/js/header.js?v=7"></script>
+<div id="footer" data-include="../assets/includes/footer-es.html"></div>
+<script src="../assets/js/header.js?v=8"></script>
 
 

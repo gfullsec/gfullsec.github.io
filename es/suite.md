@@ -1,7 +1,7 @@
 ---
 ---
 
-<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/style.css?v=2">
 
 <div id="header" data-include="../assets/includes/header-es.html"></div>
 
@@ -41,6 +41,7 @@ Análisis de logs, detección de anomalías, simulación de incidente.
 ### DevSecOps (Semana 7)
 Pipeline básico de CI/CD con seguridad integrada.
 
-<script src="../assets/js/header.js?v=7"></script>
+<div id="footer" data-include="../assets/includes/footer-es.html"></div>
+<script src="../assets/js/header.js?v=8"></script>
 
 
