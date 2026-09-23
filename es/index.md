@@ -111,6 +111,6 @@ Durante la Semana 2 también introduje un módulo adicional: **CVE‑Hunter**, u
 
 Soy Guillermo R.S., desarrollador en transición hacia ciberseguridad con un fuerte enfoque en análisis defensivo, evaluación de vulnerabilidades, herramientas OSINT y documentación estructurada.
 
-<script src="../assets/js/header.js"></script>
+<script src="../assets/js/header.js?v=2"></script>
 
 

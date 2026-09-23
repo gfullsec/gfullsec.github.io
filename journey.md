@@ -77,5 +77,5 @@ This page documents the full progression of the 8‑Week Accelerated Plan for Tr
 - Job applications  
 - Interview preparation
 
-<script src="assets/js/header.js"></script>
+<script src="assets/js/header.js?v=2"></script>
 
