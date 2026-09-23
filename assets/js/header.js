@@ -20,17 +20,19 @@ if (header) {
       header.innerHTML = data;
 
       const root = document.documentElement;
-      const button = header.querySelector('#theme-toggle');
-      const menuToggle = header.querySelector('.menu-toggle');
       const navbar = header.querySelector('.navbar');
+      const button = navbar.querySelector('#theme-toggle');
+      const menuToggle = navbar.querySelector('.menu-toggle');
       const currentPath = window.location.pathname.replace(/\/$/, '/index.html');
       const stored = localStorage.getItem('theme');
       const initial = stored || 'dark';
 
+      header.after(navbar);
+
       root.dataset.theme = initial;
       button.textContent = initial === 'dark' ? '☀️' : '🌙';
 
-      header.querySelectorAll('.nav-left a').forEach(link => {
+      navbar.querySelectorAll('.nav-left a').forEach(link => {
         const linkPath = new URL(link.href, window.location.href).pathname.replace(/\/$/, '/index.html');
 
         if (linkPath === currentPath) {
@@ -55,7 +57,7 @@ if (header) {
         );
       };
 
-      header.querySelectorAll('.nav-left a').forEach(link => {
+      navbar.querySelectorAll('.nav-left a').forEach(link => {
         link.onclick = () => {
           navbar.classList.remove('menu-open');
           menuToggle.setAttribute('aria-expanded', 'false');
