@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="assets/css/style.css">
 
-<object data="/assets/includes/header.html" type="text/html"></object>
+<div id="header" data-include="/assets/includes/header.html"></div>
 
 
 # About Me
@@ -16,4 +16,6 @@ My professional approach is based on:
 - practical, hands‑on learning  
 
 This portfolio reflects my progression through an 8‑week accelerated plan designed to build real‑world defensive security skills.
+
+<script src="assets/js/header.js"></script>
 

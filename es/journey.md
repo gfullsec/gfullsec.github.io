@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 
-<object data="../assets/includes/header-es.html" type="text/html"></object>
+<div id="header" data-include="../assets/includes/header-es.html"></div>
 
 
 # La Trayectoria de 8 Semanas
@@ -74,5 +74,7 @@ Esta página documenta el progreso completo del Plan Acelerado de 8 Semanas para
 - Adaptación del CV  
 - Aplicación a empresas  
 - Preparación de entrevistas
+
+<script src="../assets/js/header.js"></script>
 
 

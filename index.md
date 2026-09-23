@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="assets/css/style.css">
 
-<object data="/assets/includes/header.html" type="text/html"></object>
+<div id="header" data-include="/assets/includes/header.html"></div>
 
 
 # Security Analysis Suite — Portfolio by Guillermo R.S.
@@ -108,4 +108,6 @@ During Week 2, I also introduced an additional module: **CVE‑Hunter**, a custo
 ## About Me
 
 I am Guillermo R.S., a developer transitioning into cybersecurity with a strong focus on Blue Team defensive analysis, vulnerability assessment, OSINT tooling, and structured documentation.
+
+<script src="assets/js/header.js"></script>
 

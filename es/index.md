@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 
-<object data="../assets/includes/header-es.html" type="text/html"></object>
+<div id="header" data-include="../assets/includes/header-es.html"></div>
 
 # Security Analysis Suite — Portfolio de Guillermo R.S.
 
@@ -107,5 +107,7 @@ Durante la Semana 2 también introduje un módulo adicional: **CVE‑Hunter**, u
 ## Sobre mí
 
 Soy Guillermo R.S., desarrollador en transición hacia ciberseguridad con un fuerte enfoque en análisis defensivo, evaluación de vulnerabilidades, herramientas OSINT y documentación estructurada.
+
+<script src="../assets/js/header.js"></script>
 
 

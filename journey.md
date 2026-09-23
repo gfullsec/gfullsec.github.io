@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="assets/css/style.css">
 
-<object data="/assets/includes/header.html" type="text/html"></object>
+<div id="header" data-include="/assets/includes/header.html"></div>
 
 # The 8‑Week Journey
 
@@ -73,4 +73,6 @@ This page documents the full progression of the 8‑Week Accelerated Plan for Tr
 - CV adaptation  
 - Job applications  
 - Interview preparation
+
+<script src="assets/js/header.js"></script>
 

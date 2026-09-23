@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="assets/css/style.css">
 
-<object data="/assets/includes/header.html" type="text/html"></object>
+<div id="header" data-include="/assets/includes/header.html"></div>
 
 
 # Security Analysis Suite
@@ -37,4 +37,6 @@ Log analysis, anomaly detection, incident simulation.
 
 ### DevSecOps (Week 7)
 Basic CI/CD security pipeline.
+
+<script src="assets/js/header.js"></script>
 
