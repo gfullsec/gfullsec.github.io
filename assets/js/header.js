@@ -1,3 +1,14 @@
+const resetScroll = () => window.scrollTo(0, 0);
+
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+
+window.addEventListener('pageshow', resetScroll);
+window.addEventListener('load', resetScroll);
+setTimeout(resetScroll, 100);
+resetScroll();
+
 const header = document.getElementById('header');
 
 const generatedTitle = document.querySelector(
