@@ -21,6 +21,8 @@ if (header) {
 
       const root = document.documentElement;
       const button = header.querySelector('#theme-toggle');
+      const menuToggle = header.querySelector('.menu-toggle');
+      const navbar = header.querySelector('.navbar');
       const currentPath = window.location.pathname.replace(/\/$/, '/index.html');
       const stored = localStorage.getItem('theme');
       const initial = stored || 'dark';
@@ -43,6 +45,22 @@ if (header) {
         localStorage.setItem('theme', next);
         button.textContent = next === 'dark' ? '☀️' : '🌙';
       };
+
+      menuToggle.onclick = () => {
+        const isOpen = navbar.classList.toggle('menu-open');
+        menuToggle.setAttribute('aria-expanded', String(isOpen));
+        menuToggle.setAttribute(
+          'aria-label',
+          isOpen ? menuToggle.dataset.closeLabel : menuToggle.dataset.openLabel
+        );
+      };
+
+      header.querySelectorAll('.nav-left a').forEach(link => {
+        link.onclick = () => {
+          navbar.classList.remove('menu-open');
+          menuToggle.setAttribute('aria-expanded', 'false');
+        };
+      });
     })
     .catch(error => console.error(error));
 }

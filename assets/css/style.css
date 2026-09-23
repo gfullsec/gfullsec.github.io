@@ -68,6 +68,24 @@ h1, h2, h3 {
   border-bottom: 1px solid var(--border);
 }
 
+.menu-toggle {
+  display: none;
+  width: 2.75rem;
+  height: 2.4rem;
+  padding: 0.45rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--border);
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  height: 2px;
+  margin: 0.25rem 0;
+  background: var(--text);
+}
+
 /* Menú a la izquierda */
 .nav-left {
   display: flex;
@@ -147,8 +165,23 @@ h1, h2, h3 {
     align-items: flex-start;
   }
 
+  .menu-toggle {
+    display: block;
+  }
+
   .nav-left {
+    display: none;
     flex: 1 1 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .navbar.menu-open .nav-left {
+    display: flex;
+  }
+
+  .nav-left a {
+    margin: 0;
   }
 
   .nav-right {
