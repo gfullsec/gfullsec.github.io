@@ -1,5 +1,13 @@
 const header = document.getElementById('header');
 
+const generatedTitle = document.querySelector(
+  'h1 a[href="https://gfullsec.github.io/"], h1 a[href="https://gfullsec.github.io"]'
+);
+
+if (generatedTitle) {
+  generatedTitle.closest('h1').classList.add('site-title-hidden');
+}
+
 if (header) {
   fetch(header.dataset.include)
     .then(response => {
