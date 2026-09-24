@@ -108,7 +108,7 @@ Throughout my career I have worked on projects of very different nature, from co
 
 - Creation of technical documentation and internal tools (PHP, VBA).
 
-- Technologies used: MVC 4 Razor, C#, SQL Server 2008, jQuery, Knockout, LinQ, SSRS, **Adobe Flex 3.0**, PHP, VBA.
+- Technologies used: MVC 4 Razor, C#, SQL Server 2008, jQuery, Knockout, LinQ, SSRS, Adobe Flex 3.0, PHP, VBA.
 
 
 ### Software Analyst — Sanitas Seguros (Capgemini / Krell)
