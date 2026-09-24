@@ -58,7 +58,7 @@ Throughout my career I have worked on projects of very different nature, from co
 
 - L3 technical support for multiple regions and distributed teams.
 
-- Technologies used: **Visual Studio 2019/2022/2026**, **.NET 8/9/10**, VB/VB.NET, C#, JavaScript, JSON, **RESTful API**, **Azure Pipelines**, Jenkins, **Azure DevOps**, **Azure SQL**, **Azure Data Factory**, SQL Server, BCP, **Blazor**, **Playwright**, GitHub Copilot, Visual Studio Code.
+- Technologies used: Visual Studio 2019/2022/2026, **.NET 8/9/10**, VB/VB.NET, C#, JavaScript, JSON, RESTful API, **Azure Pipelines**, Jenkins, **Azure DevOps**, **Azure SQL**, **Azure Data Factory**, SQL Server, BCP, **Blazor**, **Playwright**, GitHub Copilot, Visual Studio Code.
 
 
 ### Software Analyst — Nextret
@@ -70,11 +70,11 @@ Throughout my career I have worked on projects of very different nature, from co
 
 - Refactoring of critical processes, reducing production errors by ~25%.
 
-- Digitalization of operational workflows using **PowerApps** and **Power Automate**.
+- Digitalization of operational workflows using PowerApps and Power Automate.
 
 - Development of **REST APIs** and services used by business and operations teams.
 
-- Technologies used: **Visual Studio 2019/2022**, C#, **.NET Core 3.1/5/6**, MVC 5, **Web API (REST)**, JSON, **Azure Functions**, **Azure Storage**, **Azure Queues**, SQL Server, **Swagger**, QuartzJobs, **SOAP Web Services**, **Active Directory**, IIS, SharePoint (Lists, Pages, Integrations), **PowerApps**, **Power Automate**, **Azure DevOps**, Git/TFS, jQuery, Knockout.
+- Technologies used: Visual Studio 2019/2022, C#, **.NET Core 3.1/5/6**, MVC 5, **Web API (REST)**, JSON, **Azure Functions**, **Azure Storage**, **Azure Queues**, SQL Server, Swagger, QuartzJobs, SOAP Web Services, Active Directory, IIS, SharePoint (Lists, Pages, Integrations), PowerApps, Power Automate, **Azure DevOps**, Git/TFS, jQuery, Knockout.
 
 
 ### Functional Analyst & Software Analyst — Tecnocom / OHL / Aleatica
@@ -84,17 +84,17 @@ Throughout my career I have worked on projects of very different nature, from co
 
 - Functional and technical analysis for TTS backoffice platforms in Televía highways (Mexico).
 
-- Integrations with **Microsoft Dynamics CRM** for data synchronization and commercial processes.
+- Integrations with Microsoft Dynamics CRM for data synchronization and commercial processes.
 
-- Optimization of **Oracle 11g** databases, reducing latency by 20–30%.
+- Optimization of Oracle 11g databases, reducing latency by 20–30%.
 
 - PCI DSS compliance assurance in payment‑processing systems.
 
-- Test and deployment automation using **Selenium**.
+- Test and deployment automation using Selenium.
 
 - Improved reliability of traffic‑processing systems, handling high daily volumes of crossings, recharges, invoicing, and telepass operations.
 
-- Technologies used: Visual Studio 2013/2015, MVC 4 Razor, C#, SQL Server 2012, **Oracle 11g**, jQuery, Angular.js, LinQ, **Selenium**, **SonarQube**, Microsoft Office Suite, **Microsoft Dynamics CRM**.
+- Technologies used: Visual Studio 2013/2015, MVC 4 Razor, C#, SQL Server 2012, Oracle 11g, jQuery, Angular.js, LinQ, Selenium, **SonarQube**, Microsoft Office Suite, Microsoft Dynamics CRM.
 
 
 ### Software Analyst — BBVA (Risks Innovation & Models Office)
@@ -173,4 +173,3 @@ Throughout my career I have worked on projects of very different nature, from co
 
 <div id="footer" data-include="/assets/includes/footer.html"></div>
 <script src="assets/js/header.js?v=8"></script>
-

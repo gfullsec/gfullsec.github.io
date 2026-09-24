@@ -57,7 +57,7 @@ A lo largo de mi trayectoria he trabajado en proyectos de distinta naturaleza, d
 
 - Soporte técnico L3 para múltiples regiones y equipos distribuidos.
 
-- Tecnologías utilizadas: **Visual Studio 2019/2022/2026**, **.NET 8/9/10**, VB/VB.NET, C#, JavaScript, JSON, **RESTful API**, **Azure Pipelines**, Jenkins, **Azure DevOps**, **Azure SQL**, **Azure Data Factory**, SQL Server, BCP, **Blazor**, **Playwright**, GitHub Copilot, Visual Studio Code.
+- Tecnologías utilizadas: Visual Studio 2019/2022/2026, **.NET 8/9/10**, VB/VB.NET, C#, JavaScript, JSON, RESTful API, **Azure Pipelines**, Jenkins, **Azure DevOps**, **Azure SQL**, **Azure Data Factory**, SQL Server, BCP, **Blazor**, **Playwright**, GitHub Copilot, Visual Studio Code.
 
 
 ### Analista Programador — Nextret
@@ -69,11 +69,11 @@ A lo largo de mi trayectoria he trabajado en proyectos de distinta naturaleza, d
 
 - Refactorización de procesos críticos, reduciendo errores en producción en ~25%.
 
-- Digitalización de flujos operativos mediante **PowerApps** y **Power Automate**.
+- Digitalización de flujos operativos mediante PowerApps y Power Automate.
 
 - Desarrollo de **APIs REST** y servicios utilizados por equipos de negocio y operaciones.
 
-- Tecnologías utilizadas: **Visual Studio 2019/2022**, C#, **.NET Core 3.1/5/6**, MVC 5, **Web API (REST)**, JSON, **Azure Functions**, **Azure Storage**, **Azure Queues**, SQL Server, **Swagger**, QuartzJobs, **SOAP Web Services**, **Active Directory**, IIS, SharePoint (Lists, Pages, Integraciones), **PowerApps**, **Power Automate**, **Azure DevOps**, Git/TFS, jQuery, Knockout.
+- Tecnologías utilizadas: Visual Studio 2019/2022, C#, **.NET Core 3.1/5/6**, MVC 5, **Web API (REST)**, JSON, **Azure Functions**, **Azure Storage**, **Azure Queues**, SQL Server, Swagger, QuartzJobs, SOAP Web Services, Active Directory, IIS, SharePoint (Lists, Pages, Integraciones), PowerApps, Power Automate, **Azure DevOps**, Git/TFS, jQuery, Knockout.
 
 
 ### Analista Funcional & Analista Programador — Tecnocom / OHL / Aleatica
@@ -83,17 +83,17 @@ A lo largo de mi trayectoria he trabajado en proyectos de distinta naturaleza, d
 
 - Análisis funcional y técnico para plataformas de backoffice TTS en autopistas Televía (México).
 
-- Integraciones con **Microsoft Dynamics CRM** para sincronización de datos y procesos comerciales.
+- Integraciones con Microsoft Dynamics CRM para sincronización de datos y procesos comerciales.
 
-- Optimización de bases de datos **Oracle 11g**, reduciendo latencia entre un 20–30%.
+- Optimización de bases de datos Oracle 11g, reduciendo latencia entre un 20–30%.
 
 - Garantía de cumplimiento **PCI DSS** en sistemas de procesamiento de pagos.
 
-- Automatización de pruebas y despliegues con **Selenium**.
+- Automatización de pruebas y despliegues con Selenium.
 
 - Mejora de la fiabilidad del procesamiento de datos en sistemas de tráfico, gestionando diariamente un alto volumen de transacciones de cruces, recargas, facturación y operaciones asociadas al telepeaje.
 
-- Tecnologías utilizadas: Visual Studio 2013/2015, MVC 4 Razor, C#, SQL Server 2012, **Oracle 11g**, jQuery, Angular.js, LinQ, **Selenium**, **SonarQube**, Microsoft Office Suite, **Microsoft Dynamics CRM**.
+- Tecnologías utilizadas: Visual Studio 2013/2015, MVC 4 Razor, C#, SQL Server 2012, Oracle 11g, jQuery, Angular.js, LinQ, Selenium, **SonarQube**, Microsoft Office Suite, Microsoft Dynamics CRM.
 
 
 ### Analista Programador — BBVA (Risks Innovation & Models Office)
@@ -174,5 +174,3 @@ A lo largo de mi trayectoria he trabajado en proyectos de distinta naturaleza, d
 
 <div id="footer" data-include="../assets/includes/footer-es.html"></div>
 <script src="../assets/js/header.js?v=8"></script>
-
-
