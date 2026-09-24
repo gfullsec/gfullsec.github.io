@@ -18,7 +18,7 @@ I work with analysis workflows, scripting, and documentation that reflect how I 
 
 
 This portfolio is part of an **Accelerated Plan for Transitioning into Cybersecurity**, a self‑designed program that is currently in progress.  
-If you want to explore the full journey, you can do so in the **Trajectory** section.
+If you want to explore the full transition plan, you can do so in the **Transition Plan** section.
 
 
 ---
@@ -72,7 +72,7 @@ If you want to explore the full journey, you can do so in the **Trajectory** sec
 - **About** — Professional profile, public CV, and recommendation letter 
 
 
-- **Journey** — My technical and professional evolution throughout the accelerated transition into cybersecurity roles
+- **Transition Plan** — My technical and professional evolution throughout the accelerated transition into cybersecurity roles
 
 
 - **Suite** — Tools and projects

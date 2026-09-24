@@ -18,7 +18,7 @@ Trabajo con flujos de análisis, scripting y documentación que reflejan mi form
 
 
 Este portfolio forma parte de un **Plan Acelerado para la Transición a Ciberseguridad**, un programa propio diseñado por mí y que actualmente se encuentra en desarrollo.  
-Si quieres conocer el viaje completo, puedes hacerlo en la sección **Trayectoria**.  
+Si quieres conocer el viaje completo, puedes hacerlo en la sección **Plan de transición**.  
 
 
 ---
@@ -72,7 +72,7 @@ Si quieres conocer el viaje completo, puedes hacerlo en la sección **Trayectori
 - **Sobre mí** — Perfil profesional, CV público y carta de recomendación  
 
 
-- **Trayectoria** — Mi evolución técnica y profesional dentro del proceso acelerado de transición a roles de ciberseguridad  
+- **Plan de transición** — Mi evolución técnica y profesional dentro del proceso acelerado de transición a roles de ciberseguridad  
 
 
 - **Suite** — Herramientas y proyectos  

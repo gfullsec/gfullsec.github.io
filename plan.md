@@ -5,7 +5,7 @@
 
 <div id="header" data-include="/assets/includes/header.html"></div>
 
-# The 8‑Week Journey
+# The 8‑Week Transition Plan
 
 This page documents the full progression of the 8‑Week Accelerated Plan for Transitioning into Cybersecurity.
 

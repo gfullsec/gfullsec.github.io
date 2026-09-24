@@ -6,7 +6,7 @@
 <div id="header" data-include="../assets/includes/header-es.html"></div>
 
 
-# La Trayectoria de 8 Semanas
+# Plan de transición de 8 semanas
 
 Esta página documenta el progreso completo del Plan Acelerado de 8 Semanas para la Transición a Ciberseguridad.
 
