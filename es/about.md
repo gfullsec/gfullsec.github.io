@@ -161,13 +161,14 @@ A lo largo de mi trayectoria he trabajado en proyectos de distinta naturaleza, d
 </p>
 
 <div class="pdf-container" style="margin-top: 20px;">
-    <embed 
-        src="/docs/Carta de recomendación - Guillermo Roldán.pdf" 
-        type="application/pdf" 
-        width="100%" 
-        height="600px" 
-    />
+    <iframe 
+        src="/assets/vendor/pdfjs/web/viewer.html?file=/docs/Carta de recomendación - Guillermo Roldán.pdf"
+        width="100%"
+        height="600px"
+        style="border: none;">
+    </iframe>
 </div>
+
 
 
 
