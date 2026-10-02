@@ -38,7 +38,7 @@ Esta página documenta el progreso completo del Plan Acelerado de 8 Semanas para
 - Hardening de Ubuntu con Lynis  
 - Hardening de Windows 11  
 - Checklist de seguridad  
-- Inicio del portfolio
+- Inicio del portafolio
 
 ---
 
@@ -73,8 +73,8 @@ Esta página documenta el progreso completo del Plan Acelerado de 8 Semanas para
 
 ---
 
-## Semana 8 — Portfolio y Aplicación a Empresas
-- Portfolio completo  
+## Semana 8 — Portafolio y Aplicación a Empresas
+- Portafolio completo
 - Adaptación del CV  
 - Aplicación a empresas  
 - Preparación de entrevistas

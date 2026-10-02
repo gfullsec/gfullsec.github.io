@@ -25,7 +25,7 @@ Mi forma de trabajar se basa en principios que han guiado toda mi trayectoria y 
 - **aprendizaje práctico**, centrado en proyectos reales y entornos controlados
 
 
-Mi transición a ciberseguridad no es un cambio improvisado, sino un proceso planificado. He diseñado un **plan intensivo dividido en módulos**, que abarca auditoría de red, análisis de vulnerabilidades, hardening, scripting, SOC, DevSecOps y la creación de un portfolio técnico completo. Este enfoque me permite demostrar capacidades reales, no solo conocimientos teóricos.
+Mi transición a ciberseguridad no es un cambio improvisado, sino un proceso planificado. He diseñado un **plan intensivo dividido en módulos**, que abarca auditoría de red, análisis de vulnerabilidades, hardening, scripting, SOC, DevSecOps y la creación de un portafolio técnico completo. Este enfoque me permite demostrar capacidades reales, no solo conocimientos teóricos.
 
 
 Antes de iniciar esta transición, desarrollé mi carrera en entornos empresariales complejos, trabajando tanto con sistemas legacy como con soluciones modernas construidas desde cero. He participado en migraciones, arquitecturas distribuidas, APIs, bases de datos y plataformas cloud, siempre con un enfoque metódico y orientado a la calidad. Esta combinación de experiencia —mantener, modernizar y crear— es la base sobre la que estoy construyendo mi perfil de seguridad.
@@ -158,7 +158,7 @@ A lo largo de mi trayectoria he trabajado en proyectos de distinta naturaleza, d
 <h2>Cartas de recomendación</h2>
 
 <p>
-    Esta carta fue redactada por mi líder técnico en AIDA (Domingo Alonso Group), con quien trabajé durante toda mi etapa en la compañía. Durante la mayor parte del periodo también fue mi responsable directo, lo que le permitió evaluar de primera mano mi forma de trabajar, mi capacidad técnica y mi desempeño en proyectos críticos dentro del área de Parts de SIMA Suite. He decidido incluirla en este portfolio porque refleja con claridad los principios que aplico en mi trabajo y el tipo de contribución que aporto a los equipos con los que colaboro.
+    Esta carta fue redactada por mi líder técnico en AIDA (Domingo Alonso Group), con quien trabajé durante toda mi etapa en la compañía. Durante la mayor parte del periodo también fue mi responsable directo, lo que le permitió evaluar de primera mano mi forma de trabajar, mi capacidad técnica y mi desempeño en proyectos críticos dentro del área de Parts de SIMA Suite. He decidido incluirla en este portafolio porque refleja con claridad los principios que aplico en mi trabajo y el tipo de contribución que aporto a los equipos con los que colaboro.
 </p>
 
 <div class="pdf-container" style="margin-top: 20px;">

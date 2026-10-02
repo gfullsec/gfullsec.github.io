@@ -7,7 +7,7 @@
 <div id="header" data-include="../assets/includes/header-es.html"></div>
 
 
-## Bienvenido a mi portfolio de ciberseguridad
+## Bienvenido a mi portafolio de ciberseguridad
 
 
 Este espacio reúne mi trabajo en ingeniería de seguridad, análisis defensivo y desarrollo de tooling de seguridad.  
@@ -18,7 +18,7 @@ Mi enfoque se basa en construir soluciones prácticas, reproducibles y orientada
 Trabajo con flujos de análisis, scripting y documentación que reflejan mi forma de entender la seguridad: claridad, precisión y estructura.  
 
 
-Este portfolio forma parte de un **Plan Acelerado para la Transición a Ciberseguridad**, un programa propio diseñado por mí y que actualmente se encuentra en desarrollo.  
+Este portafolio forma parte de un **Plan Acelerado para la Transición a Ciberseguridad**, un programa propio diseñado por mí y que actualmente se encuentra en desarrollo.
 Si quieres conocer el viaje completo, puedes hacerlo en la sección **Plan de transición**.  
 
 
@@ -64,10 +64,10 @@ Si quieres conocer el viaje completo, puedes hacerlo en la sección **Plan de tr
 ---
 
 
-## Secciones del portfolio
+## Secciones del portafolio
 
 
-- **Inicio** — Presentación general, visión del portfolio y estructura de contenidos  
+- **Inicio** — Presentación general, visión del portafolio y estructura de contenidos
 
 
 - **Sobre mí** — Perfil profesional, CV público y carta de recomendación  
