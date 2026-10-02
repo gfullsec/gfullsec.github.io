@@ -6,65 +6,65 @@
 
 <div id="header" data-include="/assets/includes/header.html"></div>
 
-# Plan de Desarrollo
+# Development Plan
 
-Este roadmap recoge los módulos que estoy completando como parte de mi transición hacia la ciberseguridad profesional.
+This roadmap outlines the modules I am completing as part of my transition into professional cybersecurity.
 
-Cada módulo combina formación teórica, proyectos prácticos, documentación técnica y evidencias reales de aprendizaje.
-
----
-
-## Progreso General
-
-- ✅ Módulo 1: Auditoría de Red y Automatización
-
-- ✅ Módulo 2: Vulnerabilidades y Análisis de CVEs
-
-- 🔄 Módulo 3: Hardening de Sistemas e Inicio del Portafolio
-
-- ⏳ Módulo 4: Laboratorio Profesional
-
-- ⏳ Módulo 5: Scripting para Seguridad
-
-- ⏳ Módulo 6: SOC y Análisis de Logs
-
-- ⏳ Módulo 7: DevSecOps Básico
-
-- ⏳ Módulo 8: Finalización del Portafolio
-
-**Progreso actual:** 2 módulos completados y 1 módulo en desarrollo.
+Each module combines theoretical learning, hands-on projects, technical documentation, and real evidence of progress.
 
 ---
 
-## Tecnologías y Herramientas Trabajadas
+## Overall Progress
 
-### Sistemas Operativos
+- ✅ Module 1: Network Auditing and Automation
+
+- ✅ Module 2: Vulnerabilities and CVE Analysis
+
+- 🔄 Module 3: System Hardening and Portfolio Development
+
+- ⏳ Module 4: Professional Lab
+
+- ⏳ Module 5: Security Scripting
+
+- ⏳ Module 6: SOC and Log Analysis
+
+- ⏳ Module 7: Basic DevSecOps
+
+- ⏳ Module 8: Portfolio Finalization
+
+**Current progress:** 2 modules completed and 1 module in progress.
+
+---
+
+## Technologies and Tools Used
+
+### Operating Systems
 
 - Ubuntu 26.04 LTS
 - Windows 11
 
-### Seguridad
+### Security
 
 - OpenVAS
 - Nmap
 - arp-scan
 - Lynis
 
-### Desarrollo y Automatización
+### Development and Automation
 
 - Python
 - Bash
 - Git
 - GitHub
 
-### OSINT e Inteligencia
+### OSINT and Intelligence
 
 - Shodan
 - FOFA
 - NVD
 - Exploit Database
 
-### Documentación
+### Documentation
 
 - Markdown
 - Mermaid
@@ -72,26 +72,26 @@ Cada módulo combina formación teórica, proyectos prácticos, documentación t
 
 ---
 
-# Módulo 1
+# Module 1
 
-## Auditoría de Red y Automatización
+## Network Auditing and Automation
 
-**Estado:** ✅ Completado
+**Status:** ✅ Completed
 
-### Objetivos
+### Objectives
 
-- Preparar el entorno de trabajo.
-- Realizar una auditoría completa de la red doméstica.
+- Prepare the working environment.
+- Perform a complete audit of the home network.
 
-### Trabajo realizado
+### Work Completed
 
-- Auditoría completa de la red doméstica.
-- Desarrollo de la herramienta network-audit.
-- Implementación de reporting en CSV y JSON.
-- Generación automática de diagramas Mermaid.
-- Sistema de alertas y comparativa histórica.
+- Full audit of the home network.
+- Development of the network-audit tool.
+- Implementation of CSV and JSON reporting.
+- Automatic generation of Mermaid diagrams.
+- Alert system and historical comparison functionality.
 
-### Herramientas utilizadas
+### Tools Used
 
 - Ubuntu 26.04 LTS
 - Nmap
@@ -101,48 +101,48 @@ Cada módulo combina formación teórica, proyectos prácticos, documentación t
 - Git
 - Mermaid
 
-### Resultado
+### Result
 
-El proyecto evolucionó desde un script básico hasta una herramienta modular de auditoría de red preparada para ejecuciones repetidas y análisis comparativos.
+The project evolved from a basic script into a modular network auditing tool designed for repeated executions and comparative analysis.
 
-### Proceso y desarrollo
+### Process and Development
 
-El módulo comenzó con la preparación del entorno de trabajo sobre Ubuntu 26.04 LTS, incluyendo la configuración del sistema, las herramientas base y la estructura de directorios utilizada durante el resto del roadmap.
+The module began with the preparation of the working environment on Ubuntu 26.04 LTS, including system configuration, installation of core tools, and the directory structure used throughout the roadmap.
 
-Una vez preparado el entorno, se realizó una auditoría completa de la red doméstica mediante descubrimiento de dispositivos, identificación de servicios y análisis de puertos. Durante esta fase se utilizaron herramientas como Nmap y arp-scan para generar un inventario preciso de la infraestructura.
+Once the environment was ready, a complete audit of the home network was carried out through device discovery, service identification, and port analysis. During this phase, tools such as Nmap and arp-scan were used to build an accurate inventory of the infrastructure.
 
-A medida que avanzaba la auditoría surgió la necesidad de automatizar tareas repetitivas. Lo que inicialmente iba a ser un script Bash sencillo evolucionó progresivamente hacia una herramienta modular capaz de realizar descubrimiento de red, identificación de fabricantes, generación de informes en distintos formatos, creación de diagramas Mermaid y comparación entre auditorías sucesivas.
+As the audit progressed, the need to automate repetitive tasks became apparent. What initially started as a simple Bash script gradually evolved into a modular tool capable of network discovery, vendor identification, report generation in multiple formats, Mermaid diagram creation, and comparison between successive audits.
 
-El proyecto se diseñó con una estructura orientada a reutilización y mantenimiento, incorporando generación automática de resultados, normalización de datos y mecanismos de alerta. Paralelamente se documentó la arquitectura, el flujo de trabajo y las consideraciones técnicas necesarias para que terceros pudieran comprender y ejecutar la herramienta.
+The project was designed with reusability and maintainability in mind, incorporating automated result generation, data normalization, and alerting mechanisms. At the same time, the architecture, workflow, and technical considerations were documented to ensure that third parties could understand and execute the tool.
 
-El resultado final fue la creación de una solución de auditoría de red más completa de lo previsto inicialmente, acompañada de documentación técnica y preparada para futuras ampliaciones.
+The final result was the creation of a network auditing solution that exceeded the original scope, supported by technical documentation and prepared for future enhancements.
 
-Repositorio relacionado:
+Related repository:
 
 - <a href="https://github.com/GFullSec/network-audit" target="_blank" rel="noopener noreferrer">https://github.com/GFullSec/network-audit</a>
 
 ---
 
-# Módulo 2
+# Module 2
 
-## Vulnerabilidades y Análisis de CVEs
+## Vulnerabilities and CVE Analysis
 
-**Estado:** ✅ Completado
+**Status:** ✅ Completed
 
-### Objetivos
+### Objectives
 
-- Demostrar capacidad de análisis técnico.
+- Demonstrate technical analysis capabilities.
 
-### Trabajo realizado
+### Work Completed
 
-- Desarrollo y mejora de la herramienta CVE-Hunter.
-- Integración con Shodan y FOFA.
-- Análisis dirigido del router WRT54G mediante OpenVAS.
-- Auditoría Full Network del entorno doméstico mediante OpenVAS.
-- Investigación específica de la Smart TV.
-- Correlación de vulnerabilidades y análisis contextualizado del riesgo.
+- Development and improvement of the CVE-Hunter tool.
+- Integration with Shodan and FOFA.
+- Targeted analysis of the WRT54G router using OpenVAS.
+- Full Network audit of the home environment using OpenVAS.
+- Specific investigation of the Smart TV.
+- Vulnerability correlation and contextualized risk analysis.
 
-### Herramientas utilizadas
+### Tools Used
 
 - OpenVAS
 - CVE-Hunter
@@ -153,49 +153,49 @@ Repositorio relacionado:
 - Python
 - Git
 
-### Resultado
+### Result
 
-Se construyó una metodología completa de análisis de vulnerabilidades orientada a contexto real y toma de decisiones.
+A complete vulnerability analysis methodology was developed, focused on real-world context and decision-making.
 
-### Proceso y desarrollo
+### Process and Development
 
-El segundo módulo se centró en el análisis de vulnerabilidades y en la comprensión práctica del ciclo de gestión de CVEs. Antes de abordar los escaneos, se dedicó tiempo al desarrollo y mejora de CVE-Hunter, una herramienta orientada a la correlación de vulnerabilidades e integración de fuentes externas de información.
+The second module focused on vulnerability analysis and the practical understanding of the CVE management lifecycle. Before performing scans, time was dedicated to the development and improvement of CVE-Hunter, a tool designed for vulnerability correlation and the integration of external intelligence sources.
 
-La evolución de la herramienta permitió trabajar con servicios como Shodan y FOFA, además de reforzar el conocimiento sobre APIs de seguridad, bases de datos de vulnerabilidades y procesos de correlación. Esta fase sirvió para comprender mejor el funcionamiento interno de los motores de análisis antes de utilizar herramientas de escaneo automatizado.
+The evolution of the tool enabled integration with services such as Shodan and FOFA, while also strengthening knowledge of security APIs, vulnerability databases, and correlation processes. This phase provided a deeper understanding of how analysis engines work before using automated scanning tools.
 
-Posteriormente se realizaron análisis dirigidos mediante OpenVAS sobre distintos activos de la red doméstica. El primer caso se centró en un router WRT54G, utilizado como ejercicio de análisis específico sobre un único activo. Durante esta fase se desarrolló una metodología de documentación basada en observaciones, análisis, conclusiones y acciones futuras.
+Targeted analyses were then performed using OpenVAS against different assets within the home network. The first case focused on a WRT54G router and served as an exercise in the assessment of a single asset. During this phase, a documentation methodology based on observations, analysis, conclusions, and future actions was established.
 
-Una vez validada la metodología, se llevó a cabo una auditoría completa de la red doméstica mediante OpenVAS. Los resultados obtenidos permitieron generar una visión global del entorno, identificar dispositivos con mayor exposición y establecer una línea base de seguridad.
+Once this methodology was validated, a full audit of the home network was conducted using OpenVAS. The results provided a comprehensive view of the environment, helped identify the most exposed devices, and established a security baseline.
 
-El trabajo no se limitó a recopilar vulnerabilidades. Cada hallazgo fue contextualizado según el entorno analizado, evaluando impacto, probabilidad de explotación y riesgo real. Este enfoque permitió priorizar acciones, distinguir entre problemas relevantes y ruido operativo, y justificar técnicamente las decisiones adoptadas.
+The work extended beyond simply collecting vulnerabilities. Each finding was contextualized according to the environment, considering impact, likelihood of exploitation, and actual risk. This approach made it possible to prioritize actions, separate relevant issues from operational noise, and technically justify the decisions taken.
 
-La documentación generada durante este módulo consolidó una estructura de trabajo modular y reutilizable, que posteriormente se convirtió en la base para el resto de proyectos y para la construcción del portafolio profesional.
+The documentation generated during this module consolidated a modular and reusable working structure, which later became the foundation for subsequent projects and the development of the professional portfolio.
 
-Repositorio relacionado:
+Related repository:
 
 - <a href="https://github.com/GFullSec/CVE-Hunter" target="_blank" rel="noopener noreferrer">https://github.com/GFullSec/CVE-Hunter</a>
 
 ---
 
-# Módulo 3
+# Module 3
 
-## Hardening de Sistemas e Inicio del Portafolio
+## System Hardening and Portfolio Development
 
-**Estado:** 🔄 En progreso
+**Status:** 🔄 In Progress
 
-### Objetivos
+### Objectives
 
-- Demostrar seguridad defensiva.
+- Demonstrate defensive security capabilities.
 
-### Trabajo realizado
+### Work Completed
 
-- Inicio del desarrollo del portafolio profesional.
-- Diseño de la estructura de navegación.
-- Creación de páginas informativas.
-- Organización de contenidos en español e inglés.
-- Preparación del espacio donde se documentarán los módulos posteriores.
+- Started development of the professional portfolio.
+- Designed the navigation structure.
+- Created informational pages.
+- Organized content in Spanish and English.
+- Prepared the space where future modules will be documented.
 
-### Herramientas utilizadas
+### Tools Used
 
 - Ubuntu 26.04 LTS
 - GitHub Pages
@@ -203,138 +203,114 @@ Repositorio relacionado:
 - Git
 - Jekyll
 
-### Resultado esperado
+### Expected Result
 
-Construir una base sólida para exponer de forma pública y estructurada los conocimientos, proyectos y evidencias que se desarrollarán durante el resto del roadmap.
-
----
-
-# Módulo 4
-
-## Laboratorio Profesional
-
-**Estado:** ⏳ Pendiente
-
-### Objetivos
-
-- Montar entorno de pruebas para SOC, DevSecOps y AppSec.
-
-### Tareas previstas
-
-- Crear VMs: Kali, Ubuntu Server y Windows 11.
-- Instalar Metasploitable y OWASP Juice Shop.
-- Configurar red interna.
-- Documentar la arquitectura del laboratorio.
-
-### Entregables
-
-- Documentación del laboratorio.
+Build a solid foundation for publicly and professionally showcasing the knowledge, projects, and evidence developed throughout the rest of the roadmap.
 
 ---
 
-# Módulo 5
+# Module 4
 
-## Scripting para Seguridad
+## Professional Lab
 
-**Estado:** ⏳ Pendiente
+**Status:** ⏳ Pending
 
-### Objetivos
+### Objectives
 
-- Automatizar tareas como un analista real.
+- Build a testing environment for SOC, DevSecOps, and AppSec.
 
-### Tareas previstas
+### Planned Tasks
 
-- Crear scripts Bash para escaneos y análisis de puertos.
-- Crear scripts Python para CVEs, logs y tráfico.
-- Documentar cada script.
+- Create VMs: Kali, Ubuntu Server, and Windows 11.
+- Install Metasploitable and OWASP Juice Shop.
+- Configure an internal network.
+- Document the lab architecture.
 
-### Entregables
+### Deliverables
 
-- Scripts en Bash y Python.
-
----
-
-# Módulo 6
-
-## SOC y Análisis de Logs
-
-**Estado:** ⏳ Pendiente
-
-### Objetivos
-
-- Demostrar detección de amenazas.
-
-### Tareas previstas
-
-- Analizar logs: syslog, auth.log, firewall y DNS.
-- Detectar anomalías: escaneos, conexiones repetidas y DNS sospechosos.
-- Simular un incidente.
-- Elaborar informe SOC.
-
-### Entregables
-
-- Informe SOC (detección, análisis y mitigación).
+- Lab documentation.
 
 ---
 
-# Módulo 7
+# Module 5
 
-## DevSecOps Básico
+## Security Scripting
 
-**Estado:** ⏳ Pendiente
+**Status:** ⏳ Pending
 
-### Objetivos
+### Objectives
 
-- Demostrar seguridad en CI/CD.
+- Automate tasks like a real security analyst.
 
-### Tareas previstas
+### Planned Tasks
 
-- Crear pipeline con SAST y DAST.
-- Escaneo de dependencias.
-- Escaneo de contenedores.
-- Documentar el pipeline.
+- Create Bash scripts for scans and port analysis.
+- Create Python scripts for CVEs, logs, and traffic analysis.
+- Document each script.
 
-### Entregables
+### Deliverables
 
-- Mini proyecto DevSecOps documentado.
-
-### Relación con el portafolio
-
-Los proyectos, resultados y evidencias generados durante este módulo se incorporarán al portafolio iniciado en el Módulo 3.
+- Bash and Python scripts.
 
 ---
 
-# Módulo 8
+# Module 6
 
-## Finalización del Portafolio
+## SOC and Log Analysis
 
-**Estado:** ⏳ Pendiente
+**Status:** ⏳ Pending
 
-### Objetivos
+### Objectives
 
-- Finalización del portafolio profesional.
+- Demonstrate threat detection capabilities.
 
-### Resultado esperado
+### Planned Tasks
 
-Disponer de un portafolio completo y estructurado que reúna los proyectos, laboratorios, investigaciones y evidencias desarrolladas durante todo el roadmap.
+- Analyze logs: syslog, auth.log, firewall, and DNS.
+- Detect anomalies: scans, repeated connections, and suspicious DNS activity.
+- Simulate an incident.
+- Produce a SOC report.
 
----
+### Deliverables
 
-## Resultado Final Esperado
-
-Al completar el roadmap se dispondrá de:
-
-- Portafolio técnico completo.
-- Herramientas desarrolladas en Bash y Python.
-- Informes profesionales de auditoría, vulnerabilidades y SOC.
-- Laboratorio de seguridad documentado.
-- Pipeline DevSecOps funcional.
-- Evidencias prácticas de aprendizaje y evolución profesional.
-- Preparación para procesos de selección en ciberseguridad defensiva.
+- SOC report (detection, analysis, and mitigation).
 
 ---
 
-Última actualización: Octubre de 2026
+# Module 7
+
+## Basic DevSecOps
+
+**Status:** ⏳ Pending
+
+### Objectives
+
+- Demonstrate CI/CD security practices.
+
+### Planned Tasks
+
+- Create a pipeline with SAST and DAST.
+- Dependency scanning.
+- Container scanning.
+- Document the pipeline.
+
+### Deliverables
+
+- Documented mini DevSecOps project.
+
+### Relationship with the Portfolio
+
+The projects, results, and evidence generated during this module will be incorporated into the portfolio initiated in Module 3.
+
+---
+
+# Module 8
+
+## Portfolio Finalization
+
+**Status:** ⏳ Pending
+
+### Objectives
 
 <div id="footer" data-include="/assets/includes/footer.html"></div>
 <script src="assets/js/header.js?v=8"></script>
