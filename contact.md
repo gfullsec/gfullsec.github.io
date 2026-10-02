@@ -6,7 +6,7 @@
 
 <div id="header" data-include="/assets/includes/header.html"></div>
 
-# Contact
+## Contact
 
 Do you have any questions, suggestions, or would you like to discuss one of my projects?
 

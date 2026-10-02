@@ -9,6 +9,12 @@
 
 ## Tooling de R&D — Herramientas privadas y desarrollos internos
 
+## En construcción
+ 
+Esta sección está siendo preparada para documentar futuros proyectos, investigaciones y recursos relacionados con esta área.
+ 
+El contenido será publicado una vez haya sido completado y revisado.
+
 
 
 <div id="footer" data-include="../assets/includes/footer-es.html"></div>

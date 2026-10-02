@@ -9,6 +9,11 @@
 
 ## Professional audit, vulnerability, and SOC reports
 
+## Under Construction
+ 
+This section is currently being prepared to document future projects, research, and resources related to this area.
+ 
+Content will be published once it has been completed and reviewed.
 
 
 <div id="footer" data-include="/assets/includes/footer.html"></div>

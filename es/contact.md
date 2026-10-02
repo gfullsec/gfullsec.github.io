@@ -6,7 +6,7 @@
 
 <div id="header" data-include="../assets/includes/header-es.html"></div>
 
-# Contacto
+## Contacto
 
 ¿Tienes alguna pregunta, sugerencia o quieres hablar sobre alguno de mis proyectos?
 
@@ -18,8 +18,8 @@ Puedes contactar conmigo a través de GitHub o por correo electrónico. Intento 
 
 ### GitHub
 
-- Perfil: https://github.com/GFullSec
-- Proyectos: https://github.com/GFullSec?tab=repositories
+- Perfil: <a href="https://github.com/GFullSec" target="_blank" rel="noopener noreferrer" title="https://github.com/GFullSec" class="fai-ChatInputEntity__text ___6erqso0 fyind8e f1tx3yz7 f1deo86v f1eh06m1 f1iescvh">https://github.com/GFullSec</a>
+- Proyectos: <a href="https://github.com/GFullSec?tab=repositories" target="_blank" rel="noopener noreferrer" title="https://github.com/GFullSec?tab=repositories" class="fai-ChatInputEntity__text ___6erqso0 fyind8e f1tx3yz7 f1deo86v f1eh06m1 f1iescvh">https://github.com/GFullSec?tab=repositories</a>
 - Issues y sugerencias: mediante los repositorios correspondientes
 
 ---
