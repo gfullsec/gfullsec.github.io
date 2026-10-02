@@ -173,9 +173,13 @@ El trabajo no se limitó a recopilar vulnerabilidades. Cada hallazgo fue context
 
 La documentación generada durante este módulo consolidó una estructura de trabajo modular y reutilizable, que posteriormente se convirtió en la base para el resto de proyectos y para la construcción del portafolio profesional.
 
-Repositorio relacionado:
+Repositorios relacionados:
 
 - <a href="https://github.com/GFullSec/CVE-Hunter" target="_blank" rel="noopener noreferrer">https://github.com/GFullSec/CVE-Hunter</a>
+
+- <a href="https://github.com/gfullsec/security-analysis-suite" target="_blank" rel="noopener noreferrer">https://github.com/gfullsec/security-analysis-suite</a>
+
+
 
 ---
 
