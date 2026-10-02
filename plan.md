@@ -6,23 +6,23 @@
 
 <div id="header" data-include="/assets/includes/header.html"></div>
 
-# Development Plan
+## Transition to Cybersecurity
 
-This roadmap outlines the modules I am completing as part of my transition into professional cybersecurity.
+The transition toward a career in cybersecurity is not based solely on theoretical training, but also on practice, documentation, and continuous learning.
 
-Each module combines theoretical learning, hands-on projects, technical documentation, and real evidence of progress.
+This document gathers the modules, projects, tools, and experiences that are part of my professional development process, including both the results obtained and the work carried out during each stage.
 
 ---
 
-## Overall Progress
+### Overall Progress
 
 - ✅ Module 1: Network Auditing and Automation
 
 - ✅ Module 2: Vulnerabilities and CVE Analysis
 
-- 🔄 Module 3: System Hardening and Portfolio Development
+- 🔄 Module 3: System Hardening and Portfolio Start
 
-- ⏳ Module 4: Professional Lab
+- ⏳ Module 4: Professional Laboratory
 
 - ⏳ Module 5: Security Scripting
 
@@ -32,39 +32,39 @@ Each module combines theoretical learning, hands-on projects, technical document
 
 - ⏳ Module 8: Portfolio Finalization
 
-**Current progress:** 2 modules completed and 1 module in progress.
+**Current progress:** 2 modules completed and 1 module in development.
 
 ---
 
-## Technologies and Tools Used
+### Technologies and Tools Worked With
 
-### Operating Systems
+#### Operating Systems
 
 - Ubuntu 26.04 LTS
 - Windows 11
 
-### Security
+#### Security
 
 - OpenVAS
 - Nmap
 - arp-scan
 - Lynis
 
-### Development and Automation
+#### Development and Automation
 
 - Python
 - Bash
 - Git
 - GitHub
 
-### OSINT and Intelligence
+#### OSINT and Intelligence
 
 - Shodan
 - FOFA
 - NVD
 - Exploit Database
 
-### Documentation
+#### Documentation
 
 - Markdown
 - Mermaid
@@ -72,26 +72,26 @@ Each module combines theoretical learning, hands-on projects, technical document
 
 ---
 
-# Module 1
+## Module 1
 
-## Network Auditing and Automation
+### Network Auditing and Automation
 
 **Status:** ✅ Completed
 
-### Objectives
+#### Objectives
 
 - Prepare the working environment.
-- Perform a complete audit of the home network.
+- Conduct a complete audit of the home network.
 
-### Work Completed
+#### Work performed
 
-- Full audit of the home network.
+- Complete audit of the home network.
 - Development of the network-audit tool.
-- Implementation of CSV and JSON reporting.
-- Automatic generation of Mermaid diagrams.
-- Alert system and historical comparison functionality.
+- CSV and JSON reporting implementation.
+- Automatic Mermaid diagram generation.
+- Alert system and historical comparison.
 
-### Tools Used
+#### Tools used
 
 - Ubuntu 26.04 LTS
 - Nmap
@@ -101,21 +101,21 @@ Each module combines theoretical learning, hands-on projects, technical document
 - Git
 - Mermaid
 
-### Result
+#### Result
 
-The project evolved from a basic script into a modular network auditing tool designed for repeated executions and comparative analysis.
+The project evolved from a basic script to a modular network auditing tool prepared for repeated executions and comparative analysis.
 
-### Process and Development
+#### Process and development
 
-The module began with the preparation of the working environment on Ubuntu 26.04 LTS, including system configuration, installation of core tools, and the directory structure used throughout the roadmap.
+The module began with preparing the working environment on Ubuntu 26.04 LTS, including system configuration, base tools, and the directory structure used throughout the rest of the roadmap.
 
-Once the environment was ready, a complete audit of the home network was carried out through device discovery, service identification, and port analysis. During this phase, tools such as Nmap and arp-scan were used to build an accurate inventory of the infrastructure.
+Once the environment was prepared, a complete audit of the home network was carried out using device discovery, service identification, and port analysis. During this phase, tools such as Nmap and arp-scan were used to generate a precise inventory of the infrastructure.
 
-As the audit progressed, the need to automate repetitive tasks became apparent. What initially started as a simple Bash script gradually evolved into a modular tool capable of network discovery, vendor identification, report generation in multiple formats, Mermaid diagram creation, and comparison between successive audits.
+As the audit progressed, the need to automate repetitive tasks became apparent. What initially was planned as a simple Bash script gradually evolved into a modular tool capable of network discovery, manufacturer identification, report generation in different formats, Mermaid diagram creation, and comparison between successive audits.
 
-The project was designed with reusability and maintainability in mind, incorporating automated result generation, data normalization, and alerting mechanisms. At the same time, the architecture, workflow, and technical considerations were documented to ensure that third parties could understand and execute the tool.
+The project was designed with a structure oriented toward reuse and maintenance, incorporating automatic result generation, data normalization, and alert mechanisms. At the same time, the architecture, workflow, and technical considerations necessary for others to understand and run the tool were documented.
 
-The final result was the creation of a network auditing solution that exceeded the original scope, supported by technical documentation and prepared for future enhancements.
+The final result was the creation of a more complete network auditing solution than originally planned, accompanied by technical documentation and prepared for future expansions.
 
 Related repository:
 
@@ -123,26 +123,26 @@ Related repository:
 
 ---
 
-# Module 2
+## Module 2
 
-## Vulnerabilities and CVE Analysis
+### Vulnerabilities and CVE Analysis
 
 **Status:** ✅ Completed
 
-### Objectives
+#### Objectives
 
-- Demonstrate technical analysis capabilities.
+- Demonstrate technical analysis capability.
 
-### Work Completed
+#### Work performed
 
 - Development and improvement of the CVE-Hunter tool.
 - Integration with Shodan and FOFA.
 - Targeted analysis of the WRT54G router using OpenVAS.
 - Full Network audit of the home environment using OpenVAS.
 - Specific investigation of the Smart TV.
-- Vulnerability correlation and contextualized risk analysis.
+- Vulnerability correlation and contextual risk analysis.
 
-### Tools Used
+#### Tools used
 
 - OpenVAS
 - CVE-Hunter
@@ -153,23 +153,23 @@ Related repository:
 - Python
 - Git
 
-### Result
+#### Result
 
-A complete vulnerability analysis methodology was developed, focused on real-world context and decision-making.
+A complete vulnerability analysis methodology was built, oriented toward real context and decision-making.
 
-### Process and Development
+#### Process and development
 
-The second module focused on vulnerability analysis and the practical understanding of the CVE management lifecycle. Before performing scans, time was dedicated to the development and improvement of CVE-Hunter, a tool designed for vulnerability correlation and the integration of external intelligence sources.
+The second module focused on vulnerability analysis and practical understanding of the CVE management lifecycle. Before addressing scans, time was dedicated to the development and improvement of CVE-Hunter, a tool focused on vulnerability correlation and integration with external information sources.
 
-The evolution of the tool enabled integration with services such as Shodan and FOFA, while also strengthening knowledge of security APIs, vulnerability databases, and correlation processes. This phase provided a deeper understanding of how analysis engines work before using automated scanning tools.
+The evolution of the tool enabled work with services such as Shodan and FOFA, while also strengthening knowledge of security APIs, vulnerability databases, and correlation processes. This phase helped to better understand the internal operation of analysis engines before using automated scanning tools.
 
-Targeted analyses were then performed using OpenVAS against different assets within the home network. The first case focused on a WRT54G router and served as an exercise in the assessment of a single asset. During this phase, a documentation methodology based on observations, analysis, conclusions, and future actions was established.
+Subsequently, targeted analyses were conducted using OpenVAS on different assets in the home network. The first case focused on a WRT54G router, used as an exercise in analysis of a single asset. During this phase, a documentation methodology based on observations, analysis, conclusions, and future actions was developed.
 
-Once this methodology was validated, a full audit of the home network was conducted using OpenVAS. The results provided a comprehensive view of the environment, helped identify the most exposed devices, and established a security baseline.
+Once the methodology was validated, a complete audit of the home network was carried out using OpenVAS. The results allowed for a global view of the environment, identification of devices with greater exposure, and establishment of a security baseline.
 
-The work extended beyond simply collecting vulnerabilities. Each finding was contextualized according to the environment, considering impact, likelihood of exploitation, and actual risk. This approach made it possible to prioritize actions, separate relevant issues from operational noise, and technically justify the decisions taken.
+The work was not limited to collecting vulnerabilities. Each finding was contextualized according to the analyzed environment, evaluating impact, probability of exploitation, and actual risk. This approach allowed prioritization of actions, distinction between relevant issues and operational noise, and technical justification of the decisions made.
 
-The documentation generated during this module consolidated a modular and reusable working structure, which later became the foundation for subsequent projects and the development of the professional portfolio.
+The documentation generated during this module consolidated a modular and reusable working structure, which later became the foundation for the rest of the projects and for the construction of the professional portfolio.
 
 Related repository:
 
@@ -177,25 +177,25 @@ Related repository:
 
 ---
 
-# Module 3
+## Module 3
 
-## System Hardening and Portfolio Development
+### System Hardening and Portfolio Start
 
-**Status:** 🔄 In Progress
+**Status:** 🔄 In progress
 
-### Objectives
+#### Objectives
 
-- Demonstrate defensive security capabilities.
+- Demonstrate defensive security.
 
-### Work Completed
+#### Work performed
 
-- Started development of the professional portfolio.
-- Designed the navigation structure.
-- Created informational pages.
-- Organized content in Spanish and English.
-- Prepared the space where future modules will be documented.
+- Start of professional portfolio development.
+- Navigation structure design.
+- Creation of informational pages.
+- Organization of content in Spanish and English.
+- Preparation of the space where subsequent modules will be documented.
 
-### Tools Used
+#### Tools used
 
 - Ubuntu 26.04 LTS
 - GitHub Pages
@@ -203,114 +203,138 @@ Related repository:
 - Git
 - Jekyll
 
-### Expected Result
+#### Expected result
 
-Build a solid foundation for publicly and professionally showcasing the knowledge, projects, and evidence developed throughout the rest of the roadmap.
+Build a solid foundation to publicly and structurally present the knowledge, projects, and evidence that will be developed during the rest of the roadmap.
 
 ---
 
-# Module 4
+## Module 4
 
-## Professional Lab
+### Professional Laboratory
 
 **Status:** ⏳ Pending
 
-### Objectives
+#### Objectives
 
-- Build a testing environment for SOC, DevSecOps, and AppSec.
+- Set up a testing environment for SOC, DevSecOps, and AppSec.
 
-### Planned Tasks
+#### Planned tasks
 
 - Create VMs: Kali, Ubuntu Server, and Windows 11.
 - Install Metasploitable and OWASP Juice Shop.
-- Configure an internal network.
-- Document the lab architecture.
+- Configure internal network.
+- Document the laboratory architecture.
 
-### Deliverables
+#### Deliverables
 
-- Lab documentation.
+- Laboratory documentation.
 
 ---
 
-# Module 5
+## Module 5
 
-## Security Scripting
+### Security Scripting
 
 **Status:** ⏳ Pending
 
-### Objectives
+#### Objectives
 
-- Automate tasks like a real security analyst.
+- Automate tasks like a real analyst.
 
-### Planned Tasks
+#### Planned tasks
 
-- Create Bash scripts for scans and port analysis.
-- Create Python scripts for CVEs, logs, and traffic analysis.
+- Create Bash scripts for scanning and port analysis.
+- Create Python scripts for CVEs, logs, and traffic.
 - Document each script.
 
-### Deliverables
+#### Deliverables
 
 - Bash and Python scripts.
 
 ---
 
-# Module 6
+## Module 6
 
-## SOC and Log Analysis
+### SOC and Log Analysis
 
 **Status:** ⏳ Pending
 
-### Objectives
+#### Objectives
 
-- Demonstrate threat detection capabilities.
+- Demonstrate threat detection.
 
-### Planned Tasks
+#### Planned tasks
 
 - Analyze logs: syslog, auth.log, firewall, and DNS.
-- Detect anomalies: scans, repeated connections, and suspicious DNS activity.
+- Detect anomalies: scans, repeated connections, and suspicious DNS.
 - Simulate an incident.
-- Produce a SOC report.
+- Prepare SOC report.
 
-### Deliverables
+#### Deliverables
 
 - SOC report (detection, analysis, and mitigation).
 
 ---
 
-# Module 7
+## Module 7
 
-## Basic DevSecOps
+### Basic DevSecOps
 
 **Status:** ⏳ Pending
 
-### Objectives
+#### Objectives
 
-- Demonstrate CI/CD security practices.
+- Demonstrate security in CI/CD.
 
-### Planned Tasks
+#### Planned tasks
 
 - Create a pipeline with SAST and DAST.
 - Dependency scanning.
 - Container scanning.
 - Document the pipeline.
 
-### Deliverables
+#### Deliverables
 
 - Documented mini DevSecOps project.
 
-### Relationship with the Portfolio
+#### Relationship with the portfolio
 
-The projects, results, and evidence generated during this module will be incorporated into the portfolio initiated in Module 3.
+The projects, results, and evidence generated during this module will be incorporated into the portfolio started in Module 3.
 
 ---
 
-# Module 8
+## Module 8
 
-## Portfolio Finalization
+### Portfolio Finalization
 
 **Status:** ⏳ Pending
 
-### Objectives
+#### Objectives
+
+- Finalize the professional portfolio.
+
+#### Expected result
+
+Have a complete and structured portfolio that brings together the projects, laboratories, research, and evidence developed throughout the entire transition process.
+
+---
+
+## Expected Final Result
+
+Upon completing the transition process, the following will be available:
+
+- Complete technical portfolio.
+- Tools developed in Bash and Python.
+- Professional reports on auditing, vulnerabilities, and SOC.
+- Documented security laboratory.
+- Functional DevSecOps pipeline.
+- Practical evidence of learning and professional growth.
+
+
+---
+
+Last updated: October 2026
 
 <div id="footer" data-include="/assets/includes/footer.html"></div>
 <script src="assets/js/header.js?v=8"></script>

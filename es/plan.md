@@ -6,15 +6,17 @@
 
 <div id="header" data-include="../assets/includes/header-es.html"></div>
 
-# Plan de Desarrollo
+## Transición a la Ciberseguridad
 
-Este roadmap recoge los módulos que estoy completando como parte de mi transición hacia la ciberseguridad profesional.
+La transición hacia una carrera en ciberseguridad no se basa únicamente en formación teórica, sino también en práctica, documentación y aprendizaje continuo.
 
-Cada módulo combina formación teórica, proyectos prácticos, documentación técnica y evidencias reales de aprendizaje.
+
+Este documento recoge los módulos, proyectos, herramientas y experiencias que forman parte de mi proceso de desarrollo profesional, incluyendo tanto los resultados obtenidos como el trabajo realizado durante cada etapa.
+
 
 ---
 
-## Progreso General
+### Progreso General
 
 - ✅ Módulo 1: Auditoría de Red y Automatización
 
@@ -36,35 +38,35 @@ Cada módulo combina formación teórica, proyectos prácticos, documentación t
 
 ---
 
-## Tecnologías y Herramientas Trabajadas
+### Tecnologías y Herramientas Trabajadas
 
-### Sistemas Operativos
+#### Sistemas Operativos
 
 - Ubuntu 26.04 LTS
 - Windows 11
 
-### Seguridad
+#### Seguridad
 
 - OpenVAS
 - Nmap
 - arp-scan
 - Lynis
 
-### Desarrollo y Automatización
+#### Desarrollo y Automatización
 
 - Python
 - Bash
 - Git
 - GitHub
 
-### OSINT e Inteligencia
+#### OSINT e Inteligencia
 
 - Shodan
 - FOFA
 - NVD
 - Exploit Database
 
-### Documentación
+#### Documentación
 
 - Markdown
 - Mermaid
@@ -72,18 +74,18 @@ Cada módulo combina formación teórica, proyectos prácticos, documentación t
 
 ---
 
-# Módulo 1
+## Módulo 1
 
-## Auditoría de Red y Automatización
+### Auditoría de Red y Automatización
 
 **Estado:** ✅ Completado
 
-### Objetivos
+#### Objetivos
 
 - Preparar el entorno de trabajo.
 - Realizar una auditoría completa de la red doméstica.
 
-### Trabajo realizado
+#### Trabajo realizado
 
 - Auditoría completa de la red doméstica.
 - Desarrollo de la herramienta network-audit.
@@ -91,7 +93,7 @@ Cada módulo combina formación teórica, proyectos prácticos, documentación t
 - Generación automática de diagramas Mermaid.
 - Sistema de alertas y comparativa histórica.
 
-### Herramientas utilizadas
+#### Herramientas utilizadas
 
 - Ubuntu 26.04 LTS
 - Nmap
@@ -101,11 +103,11 @@ Cada módulo combina formación teórica, proyectos prácticos, documentación t
 - Git
 - Mermaid
 
-### Resultado
+#### Resultado
 
 El proyecto evolucionó desde un script básico hasta una herramienta modular de auditoría de red preparada para ejecuciones repetidas y análisis comparativos.
 
-### Proceso y desarrollo
+#### Proceso y desarrollo
 
 El módulo comenzó con la preparación del entorno de trabajo sobre Ubuntu 26.04 LTS, incluyendo la configuración del sistema, las herramientas base y la estructura de directorios utilizada durante el resto del roadmap.
 
@@ -123,17 +125,17 @@ Repositorio relacionado:
 
 ---
 
-# Módulo 2
+## Módulo 2
 
-## Vulnerabilidades y Análisis de CVEs
+### Vulnerabilidades y Análisis de CVEs
 
 **Estado:** ✅ Completado
 
-### Objetivos
+#### Objetivos
 
 - Demostrar capacidad de análisis técnico.
 
-### Trabajo realizado
+#### Trabajo realizado
 
 - Desarrollo y mejora de la herramienta CVE-Hunter.
 - Integración con Shodan y FOFA.
@@ -142,7 +144,7 @@ Repositorio relacionado:
 - Investigación específica de la Smart TV.
 - Correlación de vulnerabilidades y análisis contextualizado del riesgo.
 
-### Herramientas utilizadas
+#### Herramientas utilizadas
 
 - OpenVAS
 - CVE-Hunter
@@ -153,11 +155,11 @@ Repositorio relacionado:
 - Python
 - Git
 
-### Resultado
+#### Resultado
 
 Se construyó una metodología completa de análisis de vulnerabilidades orientada a contexto real y toma de decisiones.
 
-### Proceso y desarrollo
+#### Proceso y desarrollo
 
 El segundo módulo se centró en el análisis de vulnerabilidades y en la comprensión práctica del ciclo de gestión de CVEs. Antes de abordar los escaneos, se dedicó tiempo al desarrollo y mejora de CVE-Hunter, una herramienta orientada a la correlación de vulnerabilidades e integración de fuentes externas de información.
 
@@ -177,17 +179,17 @@ Repositorio relacionado:
 
 ---
 
-# Módulo 3
+## Módulo 3
 
-## Hardening de Sistemas e Inicio del Portafolio
+### Hardening de Sistemas e Inicio del Portafolio
 
 **Estado:** 🔄 En progreso
 
-### Objetivos
+#### Objetivos
 
 - Demostrar seguridad defensiva.
 
-### Trabajo realizado
+#### Trabajo realizado
 
 - Inicio del desarrollo del portafolio profesional.
 - Diseño de la estructura de navegación.
@@ -195,7 +197,7 @@ Repositorio relacionado:
 - Organización de contenidos en español e inglés.
 - Preparación del espacio donde se documentarán los módulos posteriores.
 
-### Herramientas utilizadas
+#### Herramientas utilizadas
 
 - Ubuntu 26.04 LTS
 - GitHub Pages
@@ -203,126 +205,126 @@ Repositorio relacionado:
 - Git
 - Jekyll
 
-### Resultado esperado
+#### Resultado esperado
 
 Construir una base sólida para exponer de forma pública y estructurada los conocimientos, proyectos y evidencias que se desarrollarán durante el resto del roadmap.
 
 ---
 
-# Módulo 4
+## Módulo 4
 
-## Laboratorio Profesional
+### Laboratorio Profesional
 
 **Estado:** ⏳ Pendiente
 
-### Objetivos
+#### Objetivos
 
 - Montar entorno de pruebas para SOC, DevSecOps y AppSec.
 
-### Tareas previstas
+#### Tareas previstas
 
 - Crear VMs: Kali, Ubuntu Server y Windows 11.
 - Instalar Metasploitable y OWASP Juice Shop.
 - Configurar red interna.
 - Documentar la arquitectura del laboratorio.
 
-### Entregables
+#### Entregables
 
 - Documentación del laboratorio.
 
 ---
 
-# Módulo 5
+## Módulo 5
 
-## Scripting para Seguridad
+### Scripting para Seguridad
 
 **Estado:** ⏳ Pendiente
 
-### Objetivos
+#### Objetivos
 
 - Automatizar tareas como un analista real.
 
-### Tareas previstas
+#### Tareas previstas
 
 - Crear scripts Bash para escaneos y análisis de puertos.
 - Crear scripts Python para CVEs, logs y tráfico.
 - Documentar cada script.
 
-### Entregables
+#### Entregables
 
 - Scripts en Bash y Python.
 
 ---
 
-# Módulo 6
+## Módulo 6
 
-## SOC y Análisis de Logs
+### SOC y Análisis de Logs
 
 **Estado:** ⏳ Pendiente
 
-### Objetivos
+#### Objetivos
 
 - Demostrar detección de amenazas.
 
-### Tareas previstas
+#### Tareas previstas
 
 - Analizar logs: syslog, auth.log, firewall y DNS.
 - Detectar anomalías: escaneos, conexiones repetidas y DNS sospechosos.
 - Simular un incidente.
 - Elaborar informe SOC.
 
-### Entregables
+#### Entregables
 
 - Informe SOC (detección, análisis y mitigación).
 
 ---
 
-# Módulo 7
+## Módulo 7
 
-## DevSecOps Básico
+### DevSecOps Básico
 
 **Estado:** ⏳ Pendiente
 
-### Objetivos
+#### Objetivos
 
 - Demostrar seguridad en CI/CD.
 
-### Tareas previstas
+#### Tareas previstas
 
 - Crear pipeline con SAST y DAST.
 - Escaneo de dependencias.
 - Escaneo de contenedores.
 - Documentar el pipeline.
 
-### Entregables
+#### Entregables
 
 - Mini proyecto DevSecOps documentado.
 
-### Relación con el portafolio
+#### Relación con el portafolio
 
 Los proyectos, resultados y evidencias generados durante este módulo se incorporarán al portafolio iniciado en el Módulo 3.
 
 ---
 
-# Módulo 8
+## Módulo 8
 
-## Finalización del Portafolio
+### Finalización del Portafolio
 
 **Estado:** ⏳ Pendiente
 
-### Objetivos
+#### Objetivos
 
 - Finalización del portafolio profesional.
 
-### Resultado esperado
+#### Resultado esperado
 
-Disponer de un portafolio completo y estructurado que reúna los proyectos, laboratorios, investigaciones y evidencias desarrolladas durante todo el roadmap.
+Disponer de un portafolio completo y estructurado que reúna los proyectos, laboratorios, investigaciones y evidencias desarrolladas durante todo el proceso de transición.
 
 ---
 
 ## Resultado Final Esperado
 
-Al completar el roadmap se dispondrá de:
+Al completar el proceso de transición se dispondrá de:
 
 - Portafolio técnico completo.
 - Herramientas desarrolladas en Bash y Python.
@@ -330,7 +332,7 @@ Al completar el roadmap se dispondrá de:
 - Laboratorio de seguridad documentado.
 - Pipeline DevSecOps funcional.
 - Evidencias prácticas de aprendizaje y evolución profesional.
-- Preparación para procesos de selección en ciberseguridad defensiva.
+
 
 ---
 
