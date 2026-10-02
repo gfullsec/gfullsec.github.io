@@ -26,7 +26,7 @@ Puedes contactar conmigo a través de GitHub o por correo electrónico. Intento 
 
 ### Correo electrónico
 
-- Contacto general: gfullsec@proton.me
+- Contacto general:  **gfullsec@proton.me**
 
 > Si vas a reportar un error o una vulnerabilidad en alguno de mis proyectos, incluye toda la información posible para facilitar su análisis y reproducción.
 

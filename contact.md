@@ -26,7 +26,7 @@ You can contact me through GitHub or by email. I try to respond to all messages 
 
 ### Email
 
-- General contact: gfullsec@proton.me
+- General contact:  **gfullsec@proton.me**
 
 &gt; If you are reporting a bug or a vulnerability in one of my projects, please include as much information as possible to help with analysis and reproduction.
 
