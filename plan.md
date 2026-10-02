@@ -10,7 +10,7 @@
 
 The transition toward a career in cybersecurity is not based solely on theoretical training, but also on practice, documentation, and continuous learning.
 
-This document gathers the modules, projects, tools, and experiences that are part of my professional development process, including both the results obtained and the work carried out during each stage.
+This page gathers the modules, projects, tools, and experiences that are part of my professional development process, including both the results achieved and the work carried out during each stage.
 
 ---
 

@@ -11,7 +11,7 @@
 La transición hacia una carrera en ciberseguridad no se basa únicamente en formación teórica, sino también en práctica, documentación y aprendizaje continuo.
 
 
-Este documento recoge los módulos, proyectos, herramientas y experiencias que forman parte de mi proceso de desarrollo profesional, incluyendo tanto los resultados obtenidos como el trabajo realizado durante cada etapa.
+Esta página recoge los módulos, proyectos, herramientas y experiencias que forman parte de mi proceso de desarrollo profesional, incluyendo tanto los resultados obtenidos como el trabajo realizado durante cada etapa.
 
 
 ---
