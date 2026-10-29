@@ -32,7 +32,7 @@ This page gathers the modules, projects, tools, and experiences that are part of
 
 - ⏳ Module 8: Portfolio Finalization
 
-**Current progress:** 2 modules completed and 1 module in development.
+**Current progress:** 3 modules completed and 2 module in development.
 
 ---
 

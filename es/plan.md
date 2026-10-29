@@ -34,7 +34,7 @@ Esta página recoge los módulos, proyectos, herramientas y experiencias que for
 
 - ⏳ Módulo 8: Finalización del Portafolio
 
-**Progreso actual:** 2 módulos completados y 1 módulo en desarrollo.
+**Progreso actual:** 3 módulos completados y 2 módulo en desarrollo.
 
 ---
 
