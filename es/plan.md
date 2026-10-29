@@ -261,7 +261,7 @@ Proyecto de continuidad operativa, reducción de superficie de ataque y moderniz
 - Estrategia de transición hacia Linux y software libre.
 - Continuidad operativa para un entorno real de producción gráfica.
 
-- https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/workstation-hardening-project
+- <a href="https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/workstation-hardening-project" target="_blank" rel="noopener noreferrer">https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/workstation-hardening-project</a>
 
 ##### Linux Hardening Project
 
@@ -273,7 +273,7 @@ Proyecto de hardening documentado sobre Ubuntu 26.04.1 LTS utilizando Lynis como
 - Validation and comparison of results.
 - Gestión de evidencias y artefactos técnicos.
 
-- https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/linux/lynis
+- <a href="https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/linux/lynis" target="_blank" rel="noopener noreferrer">https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/linux/lynis</a>
 
 ##### Windows 11 Hardening Project
 
@@ -286,7 +286,7 @@ Proyecto de hardening documentado sobre Windows 11 Pro utilizando controles nati
 - Audit policy enhancement.
 - Validation of implemented controls.
 
-- https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/windows
+- <a href="https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/windows" target="_blank" rel="noopener noreferrer">https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/windows</a>
 
 ##### Professional Portfolio
 
@@ -297,7 +297,7 @@ Portfolio profesional desarrollado para documentar proyectos, laboratorios, herr
 - Seguimiento del roadmap profesional.
 - Publicación mediante GitHub Pages.
 
-- https://github.com/gfullsec/gfullsec.github.io
+- <a href="https://github.com/gfullsec/gfullsec.github.io" target="_blank" rel="noopener noreferrer">https://github.com/gfullsec/gfullsec.github.io</a>
 
 ---
 

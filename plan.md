@@ -256,7 +256,7 @@ Operational continuity, attack surface reduction, and technology modernization p
 - Transition strategy toward Linux and open-source software.
 - Operational continuity for a real-world graphic production environment.
 
-- https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/workstation-hardening-project
+- <a href="https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/workstation-hardening-project" target="_blank" rel="noopener noreferrer">https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/workstation-hardening-project</a>
 
 ##### Linux Hardening Project
 
@@ -268,7 +268,7 @@ Documented hardening project for Ubuntu 26.04.1 LTS using Lynis as the primary a
 - Validation and comparison of results.
 - Technical evidence and artifact management.
 
-- https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/linux/lynis
+- <a href="https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/linux/lynis" target="_blank" rel="noopener noreferrer">https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/linux/lynis</a>
 
 ##### Windows 11 Hardening Project
 
@@ -281,7 +281,7 @@ Documented hardening project for Windows 11 Pro using native Microsoft security 
 - Audit policy enhancement.
 - Validation of implemented controls.
 
-- https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/windows
+- <a href="https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/windows" target="_blank" rel="noopener noreferrer">https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/windows</a>
 
 ##### Professional Portfolio
 
@@ -292,7 +292,7 @@ Professional portfolio developed to document projects, laboratories, tools, and 
 - Professional roadmap tracking.
 - Publication through GitHub Pages.
 
-- https://github.com/gfullsec/gfullsec.github.io
+- <a href="https://github.com/gfullsec/gfullsec.github.io" target="_blank" rel="noopener noreferrer">https://github.com/gfullsec/gfullsec.github.io</a>
 
 ---
 
