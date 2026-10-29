@@ -20,11 +20,11 @@ This page gathers the modules, projects, tools, and experiences that are part of
 
 - ✅ Module 2: Vulnerabilities and CVE Analysis
 
-- 🔄 Module 3: System Hardening and Portfolio Start
+- ✅ Module 3: System Hardening and Portfolio Start
 
-- ⏳ Module 4: Professional Laboratory
+- 🔄 Module 4: Professional Laboratory
 
-- ⏳ Module 5: Security Scripting
+- 🔄 Module 5: Security Scripting
 
 - ⏳ Module 6: SOC and Log Analysis
 
@@ -175,39 +175,124 @@ Related repositories:
 
 - <a href="https://github.com/GFullSec/CVE-Hunter" target="_blank" rel="noopener noreferrer">https://github.com/GFullSec/CVE-Hunter</a>
 
-- <a href="https://github.com/gfullsec/security-analysis-suite" target="_blank" rel="noopener noreferrer">https://github.com/gfullsec/security-analysis-suite</a>
+- <a href="https://github.com/gfullsec/security-analysis-suite/tree/main/openvas" target="_blank" rel="noopener noreferrer">https://github.com/gfullsec/security-analysis-suite/tree/main/openvas</a>
 
 ---
 
 ## Module 3
 
-### System Hardening and Portfolio Start
+### System Hardening and Portfolio Development
 
-**Status:** 🔄 In progress
+**Status:** ✅ Completed
 
 #### Objectives
 
-- Demonstrate defensive security.
+- Demonstrate defensive security and hardening capabilities.
+- Build the foundation of a professional portfolio.
+- Design and document a reproducible laboratory for security activities.
+- Apply assessment, remediation, and validation methodologies to Windows and Linux systems.
+- Solve a real-world attack surface reduction and business continuity case.
 
-#### Work performed
+#### Work Completed
 
-- Start of professional portfolio development.
-- Navigation structure design.
-- Creation of informational pages.
-- Organization of content in Spanish and English.
-- Preparation of the space where subsequent modules will be documented.
+- Initial development of the professional portfolio.
+- Design of the bilingual navigation structure.
+- Creation and organization of the public roadmap documentation.
+- Construction and documentation of the VirtualBox-based laboratory environment.
+- Creation and validation of Windows 11 and Ubuntu virtual machines.
+- Documentation of deployment and configuration procedures.
+- Modernization and attack surface reduction project for a professional Windows 10 workstation used in a real production environment.
+- Assessment and documented hardening of Ubuntu 26.04.1 LTS using Lynis.
+- Assessment and documented hardening of Windows 11 using native security controls.
+- Development of a methodology based on Assessment, Implementation, and Validation.
+- Generation and preservation of technical evidence and artifacts.
 
-#### Tools used
+#### Tools Used
 
 - Ubuntu 26.04 LTS
+- Windows 11 Pro
+- Windows 10
+- Oracle VirtualBox
+- Lynis
+- Microsoft Defender
+- BitLocker
+- PowerShell
+- Git
+- GitHub
 - GitHub Pages
 - Markdown
-- Git
-- Jekyll
 
-#### Expected result
+#### Outcome
 
-Build a solid foundation to publicly and structurally present the knowledge, projects, and evidence that will be developed during the rest of the roadmap.
+A practical hardening methodology was developed for both Windows and Linux environments, documenting the initial assessment, the implemented security measures, and their subsequent validation. In parallel, an operational continuity strategy was designed for a professional environment dependent on legacy software, using virtualization, isolation, and a gradual transition toward more secure and sustainable solutions.
+
+#### Process and Development
+
+The module began with the creation of the professional portfolio and the definition of the documentation structure that would serve as the foundation for all subsequent roadmap projects. During this phase, the initial pages, bilingual navigation, and content organization were developed with a focus on publishing technical evidence and reproducible documentation.
+
+At the same time, the laboratory environment was built on Oracle VirtualBox. The virtual machines required for future analysis and hardening activities were deployed and documented, including Ubuntu and Windows 11 systems prepared for security testing, configuration validation, and procedural documentation.
+
+One of the most relevant projects of the module focused on the analysis and modernization of a professional workstation used daily in a screen-printing workshop. The system, originally deployed in 2012, remained functional for the user's needs but depended on Windows 10, legacy Adobe applications, and peripherals critical to business operations.
+
+The project began with a complete technical assessment of the hardware, software, storage, peripherals, and user workflow. This was followed by a risk assessment focused on operating system obsolescence, unsupported software dependencies, and operational continuity requirements.
+
+Based on the assessment results, a target architecture was designed using Ubuntu 26.04 LTS as the host operating system and a virtualized Windows 10 environment to retain essential Adobe applications. This strategy made it possible to isolate an unsupported operating system, significantly reduce the attack surface, extend the useful life of existing hardware, and facilitate a gradual transition toward open-source tools such as GIMP, Inkscape, and Scribus.
+
+The main component of the module focused on documented operating system hardening. On Ubuntu 26.04.1 LTS, an initial assessment was performed with Lynis, followed by findings analysis, recommendation classification, implementation of improvement measures, and final validation. The process increased the Hardening Index and established a reproducible hardening methodology based on assessment, implementation, and validation.
+
+An equivalent approach was applied to Windows 11 using native security controls. The process included the evaluation of Microsoft Defender, BitLocker, PowerShell policies, advanced auditing configuration, and ransomware protection. Specific improvements were then implemented, validated, and fully documented through technical evidence collected during the project.
+
+All documentation generated throughout the module was incorporated into the main repository, establishing a consistent methodology based on evidence, change traceability, risk analysis, and validation of results.
+
+#### Related Repositories
+
+##### Workstation Hardening Project
+
+Operational continuity, attack surface reduction, and technology modernization project for a professional Windows 10-based workstation.
+
+- Risk assessment.
+- Hardware and software compatibility analysis.
+- Virtualization-based architecture design.
+- Transition strategy toward Linux and open-source software.
+- Operational continuity for a real-world graphic production environment.
+
+- https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/workstation-hardening-project
+
+##### Linux Hardening Project
+
+Documented hardening project for Ubuntu 26.04.1 LTS using Lynis as the primary assessment tool.
+
+- Baseline assessment.
+- Findings analysis.
+- Hardening implementation.
+- Validation and comparison of results.
+- Technical evidence and artifact management.
+
+- https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/linux/lynis
+
+##### Windows 11 Hardening Project
+
+Documented hardening project for Windows 11 Pro using native Microsoft security controls.
+
+- Security baseline assessment.
+- BitLocker protection enablement.
+- Microsoft Defender hardening.
+- PowerShell security controls.
+- Audit policy enhancement.
+- Validation of implemented controls.
+
+- https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/windows
+
+##### Professional Portfolio
+
+Professional portfolio developed to document projects, laboratories, tools, and activities related to the transition into cybersecurity.
+
+- Bilingual website (ES/EN).
+- Project and evidence documentation.
+- Professional roadmap tracking.
+- Publication through GitHub Pages.
+
+- https://github.com/gfullsec/gfullsec.github.io
 
 ---
 
