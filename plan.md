@@ -24,7 +24,7 @@ This page gathers the modules, projects, tools, and experiences that are part of
 
 - 🔄 Module 4: Professional Laboratory
 
-- 🔄 Module 5: Security Scripting
+- ✅ Module 5: Security Scripting
 
 - ⏳ Module 6: SOC and Log Analysis
 
@@ -32,7 +32,7 @@ This page gathers the modules, projects, tools, and experiences that are part of
 
 - ⏳ Module 8: Portfolio Finalization
 
-**Current progress:** 3 modules completed and 2 modules in development.
+**Current progress:** 4 modules completed and 1 modules in development.
 
 ---
 
@@ -319,25 +319,61 @@ Professional portfolio developed to document projects, laboratories, tools, and 
 
 ---
 
-## Module 5
+## Módulo 5
 
-### Security Scripting
+### Scripting para Seguridad
 
-**Status:** ⏳ Pending
+**Estado:** ✅ Completado
 
-#### Objectives
+### Objetivos
 
-- Automate tasks like a real analyst.
+- Mejorar la calidad y mantenibilidad de herramientas desarrolladas previamente.
+- Revisar la documentación técnica de los proyectos.
+- Reducir deuda técnica mediante tareas de limpieza y refactorización.
+- Adaptar funcionalidades a criterios de uso responsable y cumplimiento legal.
 
-#### Planned tasks
+### Trabajo realizado
 
-- Create Bash scripts for scanning and port analysis.
-- Create Python scripts for CVEs, logs, and traffic.
-- Document each script.
+- Revisión completa del proyecto Network-Audit.
+- Corrección y ampliación de la documentación técnica.
+- Limpieza y reorganización del código para mejorar su mantenibilidad.
+- Eliminación de elementos redundantes y mejora de la estructura del proyecto.
+- Revisión funcional del proyecto CVE-Hunter.
+- Desactivación del escaneo de puertos mediante Nmap por defecto.
+- Adecuación de las funcionalidades a un enfoque alineado con la legalidad vigente y las buenas prácticas profesionales.
+- Revisión de la experiencia de uso y configuración inicial de las herramientas.
 
-#### Deliverables
+### Herramientas utilizadas
 
-- Bash and Python scripts.
+- Python
+- Git
+- GitHub
+- Markdown
+- Nmap
+- Shodan
+- FOFA
+
+### Resultado
+
+Durante este módulo se llevó a cabo una fase de mantenimiento y mejora de los proyectos desarrollados en módulos anteriores. El objetivo principal fue aumentar la calidad del código, mejorar la documentación y adaptar determinadas funcionalidades a un uso más responsable desde el punto de vista técnico y legal.
+
+### Proceso y desarrollo
+
+Tras la finalización de las versiones iniciales de las herramientas desarrolladas durante el itinerario, se dedicó este módulo a realizar tareas de mantenimiento correctivo y evolutivo sobre los proyectos Network-Audit y CVE-Hunter.
+
+En el proyecto Network-Audit se realizó una revisión completa de la documentación técnica y de la estructura del código fuente. Se corrigieron errores menores de documentación, se reorganizaron componentes para mejorar la legibilidad y se eliminaron fragmentos de código y elementos que ya no aportaban valor al proyecto. Estas acciones permitieron reducir deuda técnica y facilitar futuras ampliaciones.
+
+Por otro lado, se revisó el comportamiento por defecto de CVE-Hunter con especial atención a las implicaciones legales de determinadas funcionalidades. Como resultado de esta revisión, el escaneo activo de puertos mediante Nmap fue deshabilitado por defecto, pasando a ser una opción que requiere activación explícita por parte del usuario.
+
+Esta modificación permite mantener las capacidades de auditoría de la herramienta sin promover la ejecución involuntaria de acciones activas sobre objetivos externos, reforzando el enfoque del proyecto hacia la recopilación, correlación y análisis de información obtenida de fuentes públicas y servicios OSINT.
+
+Las actividades realizadas durante este módulo reflejan una fase habitual dentro del ciclo de vida de cualquier herramienta profesional, donde el mantenimiento, la refactorización, la mejora documental y la adecuación a requisitos legales resultan tan importantes como el desarrollo de nuevas funcionalidades.
+
+### Repositorios relacionados
+
+- https://github.com/GFullSec/network-audit
+- https://github.com/GFullSec/CVE-Hunter
+
 
 ---
 
