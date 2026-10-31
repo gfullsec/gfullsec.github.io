@@ -319,31 +319,31 @@ Professional portfolio developed to document projects, laboratories, tools, and 
 
 ---
 
-## Módulo 5
+## Module 5
 
-### Scripting para Seguridad
+### Security Scripting
 
-**Estado:** ✅ Completado
+**Status:** ✅ Completed
 
-### Objetivos
+### Objectives
 
-- Mejorar la calidad y mantenibilidad de herramientas desarrolladas previamente.
-- Revisar la documentación técnica de los proyectos.
-- Reducir deuda técnica mediante tareas de limpieza y refactorización.
-- Adaptar funcionalidades a criterios de uso responsable y cumplimiento legal.
+- Improve the quality and maintainability of tools developed previously.
+- Review the technical documentation of the projects.
+- Reduce technical debt through cleanup and refactoring tasks.
+- Adapt features to responsible-use criteria and legal compliance.
 
-### Trabajo realizado
+### Work completed
 
-- Revisión completa del proyecto Network-Audit.
-- Corrección y ampliación de la documentación técnica.
-- Limpieza y reorganización del código para mejorar su mantenibilidad.
-- Eliminación de elementos redundantes y mejora de la estructura del proyecto.
-- Revisión funcional del proyecto CVE-Hunter.
-- Desactivación del escaneo de puertos mediante Nmap por defecto.
-- Adecuación de las funcionalidades a un enfoque alineado con la legalidad vigente y las buenas prácticas profesionales.
-- Revisión de la experiencia de uso y configuración inicial de las herramientas.
+- Comprehensive review of the Network-Audit project.
+- Correction and expansion of the technical documentation.
+- Code cleanup and reorganization to improve maintainability.
+- Removal of redundant elements and improvement of the project structure.
+- Functional review of the CVE-Hunter project.
+- Disabling Nmap port scanning by default.
+- Aligning features with current legal requirements and professional best practices.
+- Review of the user experience and initial tool configuration.
 
-### Herramientas utilizadas
+### Tools used
 
 - Python
 - Git
@@ -353,26 +353,26 @@ Professional portfolio developed to document projects, laboratories, tools, and 
 - Shodan
 - FOFA
 
-### Resultado
+### Result
 
-Durante este módulo se llevó a cabo una fase de mantenimiento y mejora de los proyectos desarrollados en módulos anteriores. El objetivo principal fue aumentar la calidad del código, mejorar la documentación y adaptar determinadas funcionalidades a un uso más responsable desde el punto de vista técnico y legal.
+During this module, a maintenance and improvement phase was carried out for the projects developed in previous modules. The main objective was to improve code quality, enhance documentation, and adapt certain features for more responsible use from a technical and legal perspective.
 
-### Proceso y desarrollo
+### Process and development
 
-Tras la finalización de las versiones iniciales de las herramientas desarrolladas durante el itinerario, se dedicó este módulo a realizar tareas de mantenimiento correctivo y evolutivo sobre los proyectos Network-Audit y CVE-Hunter.
+After completing the initial versions of the tools developed during the program, this module was dedicated to corrective and evolutionary maintenance tasks for the Network-Audit and CVE-Hunter projects.
 
-En el proyecto Network-Audit se realizó una revisión completa de la documentación técnica y de la estructura del código fuente. Se corrigieron errores menores de documentación, se reorganizaron componentes para mejorar la legibilidad y se eliminaron fragmentos de código y elementos que ya no aportaban valor al proyecto. Estas acciones permitieron reducir deuda técnica y facilitar futuras ampliaciones.
+The Network-Audit project underwent a comprehensive review of its technical documentation and source code structure. Minor documentation errors were corrected, components were reorganized to improve readability, and code snippets and elements that no longer added value to the project were removed. These actions helped reduce technical debt and facilitate future enhancements.
 
-Por otro lado, se revisó el comportamiento por defecto de CVE-Hunter con especial atención a las implicaciones legales de determinadas funcionalidades. Como resultado de esta revisión, el escaneo activo de puertos mediante Nmap fue deshabilitado por defecto, pasando a ser una opción que requiere activación explícita por parte del usuario.
+The default behavior of CVE-Hunter was also reviewed, with particular attention to the legal implications of certain features. As a result of this review, active port scanning with Nmap was disabled by default and made an option that requires explicit activation by the user.
 
-Esta modificación permite mantener las capacidades de auditoría de la herramienta sin promover la ejecución involuntaria de acciones activas sobre objetivos externos, reforzando el enfoque del proyecto hacia la recopilación, correlación y análisis de información obtenida de fuentes públicas y servicios OSINT.
+This change preserves the tool's auditing capabilities without encouraging the inadvertent execution of active actions against external targets, reinforcing the project's focus on collecting, correlating, and analyzing information obtained from public sources and OSINT services.
 
-Las actividades realizadas durante este módulo reflejan una fase habitual dentro del ciclo de vida de cualquier herramienta profesional, donde el mantenimiento, la refactorización, la mejora documental y la adecuación a requisitos legales resultan tan importantes como el desarrollo de nuevas funcionalidades.
+The activities carried out during this module reflect a common phase in the life cycle of any professional tool, where maintenance, refactoring, documentation improvements, and compliance with legal requirements are as important as developing new features.
 
-### Repositorios relacionados
+### Related repositories
 
-- https://github.com/GFullSec/network-audit
-- https://github.com/GFullSec/CVE-Hunter
+- <a href="https://github.com/GFullSec/network-audit" target="_blank" rel="noopener noreferrer">https://github.com/GFullSec/network-audit</a>
+- <a href="https://github.com/GFullSec/CVE-Hunter" target="_blank" rel="noopener noreferrer">https://github.com/GFullSec/CVE-Hunter</a>
 
 
 ---
@@ -461,4 +461,3 @@ Last updated: October 2026
 
 <div id="footer" data-include="/assets/includes/footer.html"></div>
 <script src="assets/js/header.js?v=8"></script>
-

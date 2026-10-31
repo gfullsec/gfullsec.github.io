@@ -376,8 +376,8 @@ Las actividades realizadas durante este módulo reflejan una fase habitual dentr
 
 ### Repositorios relacionados
 
-- https://github.com/GFullSec/network-audit
-- https://github.com/GFullSec/CVE-Hunter
+- <a href="https://github.com/GFullSec/network-audit" target="_blank" rel="noopener noreferrer">https://github.com/GFullSec/network-audit</a>
+- <a href="https://github.com/GFullSec/CVE-Hunter" target="_blank" rel="noopener noreferrer">https://github.com/GFullSec/CVE-Hunter</a>
 
 ---
 
@@ -465,5 +465,4 @@ Al completar el proceso de transición se dispondrá de:
 
 <div id="footer" data-include="../assets/includes/footer-es.html"></div>
 <script src="../assets/js/header.js?v=8"></script>
-
 
