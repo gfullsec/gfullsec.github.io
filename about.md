@@ -62,7 +62,7 @@ Throughout my career I have worked on projects of very different nature, from co
 - Technologies used: Visual Studio 2019/2022/2026, **.NET 8/9/10**, VB/VB.NET, C#, JavaScript, JSON, RESTful API, **Azure Pipelines**, Jenkins, **Azure DevOps**, **Azure SQL**, **Azure Data Factory**, SQL Server, BCP, **Blazor**, **Playwright**, GitHub Copilot, Visual Studio Code.
 
 
-### Software Analyst — Nextret
+### Software Analyst — Nextret - KPMG - Educo - Spanish Red Cross - Esade - Famosa - Chiesi
 **Sep 2019 – Jul 2023 | Remote**
 
 - Development of enterprise solutions using **.NET Core**, **MVC 5**, **Azure Functions**, and SQL Server.

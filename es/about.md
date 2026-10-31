@@ -61,7 +61,7 @@ A lo largo de mi trayectoria he trabajado en proyectos de distinta naturaleza, d
 - Tecnologías utilizadas: Visual Studio 2019/2022/2026, **.NET 8/9/10**, VB/VB.NET, C#, JavaScript, JSON, RESTful API, **Azure Pipelines**, Jenkins, **Azure DevOps**, **Azure SQL**, **Azure Data Factory**, SQL Server, BCP, **Blazor**, **Playwright**, GitHub Copilot, Visual Studio Code.
 
 
-### Analista Programador — Nextret
+### Analista Programador — Nextret - KPMG - Educo - Cruz roja - Esade - Famosa - Chiesi
 **Sep 2019 – Jul 2023 | Remoto**
 
 - Desarrollo de soluciones empresariales con **.NET Core**, **MVC 5**, **Azure Functions** y SQL Server.
