@@ -8,7 +8,7 @@
 
 ## R&D
 
-This section showcases selected technical projects and private tools developed throughout my professional and personal career.
+This section showcases **EyeIDProject** and **DependencyExplorer**, two technical projects developed throughout my professional and personal career.
 
 The descriptions focus on the problems addressed, the solutions designed, the technologies used, and the value delivered in real-world environments, without disclosing sensitive implementation details.
 

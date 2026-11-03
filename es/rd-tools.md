@@ -9,7 +9,7 @@
 
 ## I+D
 
-Esta sección presenta proyectos técnicos seleccionados y herramientas privadas desarrollados a lo largo de mi trayectoria profesional y personal.
+Esta sección presenta **EyeIDProject** y **DependencyExplorer**, dos proyectos técnicos desarrollados a lo largo de mi trayectoria profesional y personal.
 
 Las descripciones se centran en los problemas abordados, las soluciones diseñadas, las tecnologías utilizadas y el valor aportado en entornos reales, sin revelar detalles sensibles de implementación.
 
