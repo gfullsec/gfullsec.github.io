@@ -34,7 +34,7 @@ Using advanced analysis and visualization techniques, the tool transforms comple
         playsinline
         style="max-width: 900px; width: 100%; border-radius: 12px;"
     >
-        <source src="/assets/videos/EyeIDProject.webm" type="video/webm">
+        <source src="/assets/videos/EyeOne.webm" type="video/webm">
         Your browser does not support HTML5 video.
     </video>
 </div>

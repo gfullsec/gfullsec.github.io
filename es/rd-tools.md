@@ -35,7 +35,7 @@ Mediante técnicas avanzadas de análisis y visualización, la herramienta trans
         playsinline
         style="max-width: 900px; width: 100%; border-radius: 12px;"
     >
-        <source src="../assets/videos/EyeIDProject.webm" type="video/webm">
+        <source src="../assets/videos/EyeOne.webm" type="video/webm">
         Tu navegador no soporta vídeos HTML5.
     </video>
 </div>
