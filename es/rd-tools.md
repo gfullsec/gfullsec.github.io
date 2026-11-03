@@ -44,17 +44,22 @@ Mediante técnicas avanzadas de análisis y visualización, la herramienta trans
 
 ## El Problema
 
-A medida que las aplicaciones evolucionan, las bases de datos crecen en tamaño y complejidad.
+A medida que las aplicaciones evolucionan, las bases de datos crecen en tamaño y complejidad. En sistemas con cientos de tablas y numerosos objetos relacionados, comprender la arquitectura requiere algo más que consultar el esquema de forma aislada.
 
-En muchos casos, la documentación no refleja el estado real del sistema, lo que dificulta:
+Las relaciones pueden estar mal documentadas, repartidas entre distintos objetos o no estar representadas por completo mediante claves foráneas. Aunque las herramientas de administración de bases de datos permiten inspeccionar objetos y relaciones, recorrerlos individualmente no siempre ofrece una visión global y clara cuando el volumen del sistema es elevado.
 
-- Comprender el impacto de los cambios.
-- Incorporar nuevos miembros al equipo.
-- Diseñar pruebas funcionales.
-- Analizar dependencias entre módulos.
-- Detectar puntos críticos de la arquitectura.
+Como resultado, algunas dependencias quedan ocultas o son difíciles de seguir manualmente. Esto complica:
 
-Cuando una base de datos supera varios cientos de tablas, obtener una visión global del sistema se convierte en una tarea extremadamente compleja.
+- Las auditorías y la elaboración de documentación técnica fiable.
+- Las migraciones y la evaluación del impacto de los cambios.
+- La comprensión de cómo se relacionan los distintos componentes del sistema.
+- La identificación de dependencias y rutas de datos críticas.
+- El diseño de pruebas funcionales a partir de las relaciones entre objetos.
+- La reducción de la curva de aprendizaje al incorporar nuevos miembros al equipo.
+- La identificación de componentes y puntos críticos de la arquitectura.
+- Las revisiones de seguridad y el análisis de posibles puntos frágiles.
+
+Sin una representación global, analizar estas relaciones puede requerir revisar numerosos objetos y contrastar información dispersa, lo que dificulta obtener una comprensión completa del sistema.
 
 ---
 
@@ -73,13 +78,22 @@ Sus principales capacidades incluyen:
 
 El resultado es una visión global que facilita la comprensión técnica y funcional del sistema.
 
+Esta visión global también puede ayudar a:
+
+- Reducir el tiempo necesario para las auditorías y el análisis inicial.
+- Mejorar la documentación técnica de sistemas complejos o legacy.
+- Hacer visibles dependencias difíciles de identificar manualmente.
+- Comprender la arquitectura real antes de realizar cambios críticos.
+- Reducir el riesgo de errores durante despliegues y migraciones.
+- Identificar puntos sensibles que conviene revisar desde la perspectiva de seguridad.
+
 ---
 
 ## Tecnologías Utilizadas
 
 - ASP.NET Core MVC
 - C#
-- D3.js
+- JavaScript
 - SQL Server
 - Azure SQL Database
 - Oracle Database
@@ -104,14 +118,21 @@ EyeIDProject permitió:
 
 ## Aplicación en Ciberseguridad
 
-Aunque fue concebido como una herramienta de análisis de arquitectura de datos, sus capacidades también tienen aplicación directa en actividades relacionadas con la seguridad:
+EyeIDProject puede apoyar distintas actividades de ciberseguridad al ofrecer una visión más clara de las relaciones y dependencias del sistema:
 
-- Identificación de flujos de datos sensibles.
-- Localización de elementos críticos dentro del modelo relacional.
-- Apoyo a auditorías técnicas.
-- Análisis de dependencias para evaluación de riesgos.
-- Comprensión de superficies de exposición de la información.
-- Soporte para iniciativas de gobernanza y clasificación de datos.
+- **Flujos de datos sensibles:** ayuda a comprender cómo se relacionan los objetos que almacenan o procesan información sensible.
+- **Elementos críticos:** facilita localizar componentes relevantes dentro del modelo relacional.
+- **Auditoría técnica:** apoya la revisión de la arquitectura, el análisis de impacto y la documentación técnica.
+- **Evaluación de riesgos:** permite analizar dependencias que pueden influir en el alcance o impacto de un riesgo.
+- **Exposición de la información:** ayuda a entender las relaciones que podrían ser relevantes al revisar cómo se expone o utiliza la información.
+- **Gobernanza y clasificación de datos:** aporta contexto para iniciativas de clasificación y gestión de datos.
+- **Visibilidad de dependencias:** puede hacer visibles relaciones poco evidentes que merezcan revisarse como posibles rutas de ataque.
+- **Modelado de amenazas:** ayuda a identificar rutas críticas y puntos débiles que requieren análisis.
+- **Hardening:** permite revisar dependencias que podrían ampliar el impacto de un problema o condicionar medidas de endurecimiento.
+- **DevSecOps:** aporta contexto para evaluar cambios de seguridad antes de despliegues y migraciones.
+- **Análisis de cambios:** ayuda a comprender la arquitectura y las dependencias afectadas antes de realizar cambios críticos.
+
+La herramienta sirve como apoyo a la investigación y a la toma de decisiones; las relaciones y los riesgos identificados deben validarse en su contexto.
 
 ---
 
@@ -187,7 +208,7 @@ El análisis procesa varios archivos de forma concurrente, lo que ayuda a trabaj
 - Expresiones regulares
 - Newtonsoft.Json
 - JSON
-- Exportación de datos compatible con D3.js
+- Exportación de datos JSON compatible con grafos
 
 ---
 

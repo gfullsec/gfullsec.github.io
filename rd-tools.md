@@ -43,17 +43,22 @@ Using advanced analysis and visualization techniques, the tool transforms comple
 
 ## The Problem
 
-As applications evolve, databases grow in size and complexity.
+As applications evolve, databases grow in size and complexity. In systems with hundreds of tables and many related objects, understanding the architecture requires more than inspecting the schema one object at a time.
 
-In many cases, the documentation does not reflect the system's actual state, making it difficult to:
+Relationships may be poorly documented, spread across different objects, or not fully represented by foreign keys. Although database administration tools provide ways to inspect objects and relationships, navigating them individually may not provide a clear, manageable overview when the system is large.
 
-- Understand the impact of changes.
-- Onboard new team members.
-- Design functional tests.
-- Analyze dependencies between modules.
-- Identify critical points in the architecture.
+As a result, some dependencies remain hidden or are difficult to trace manually. This complicates:
 
-When a database contains several hundred tables, gaining an overall view of the system becomes extremely challenging.
+- Audits and the creation of reliable technical documentation.
+- Migrations and change-impact assessment.
+- Understanding how different system components relate to one another.
+- Identifying critical dependencies and data paths.
+- Designing functional tests based on relationships between objects.
+- Reducing the learning curve for new team members.
+- Identifying critical components and points in the architecture.
+- Security reviews and the analysis of potential weak points.
+
+Without a global representation, analyzing these relationships may require reviewing many objects and cross-referencing scattered information, making it harder to build a complete understanding of the system.
 
 ---
 
@@ -72,13 +77,22 @@ Its main capabilities include:
 
 The result is an overall view that makes the system easier to understand from both technical and functional perspectives.
 
+This overall view can also help to:
+
+- Reduce the time required for audits and initial analysis.
+- Improve technical documentation for complex or legacy systems.
+- Surface dependencies that are difficult to identify manually.
+- Understand the system's actual architecture before critical changes.
+- Reduce the risk of errors during deployments and migrations.
+- Identify sensitive areas that may warrant security review.
+
 ---
 
 ## Technologies Used
 
 - ASP.NET Core MVC
 - C#
-- D3.js
+- JavaScript
 - SQL Server
 - Azure SQL Database
 - Oracle Database
@@ -103,14 +117,21 @@ EyeIDProject helped to:
 
 ## Cybersecurity Applications
 
-Although it was conceived as a data architecture analysis tool, its capabilities also have direct applications in security-related activities:
+EyeIDProject can support several cybersecurity activities by providing a clearer view of system relationships and dependencies:
 
-- Identifying sensitive data flows.
-- Locating critical elements within the relational model.
-- Supporting technical audits.
-- Analyzing dependencies for risk assessment.
-- Understanding information exposure surfaces.
-- Supporting data governance and classification initiatives.
+- **Sensitive data flows:** helps understand how objects that store or process sensitive information are related.
+- **Critical components:** helps locate relevant elements within the relational model.
+- **Technical auditing:** supports architecture reviews, impact analysis, and technical documentation.
+- **Risk assessment:** helps analyze dependencies that may affect the scope or impact of a risk.
+- **Information exposure:** helps understand relationships that may be relevant when reviewing how information is exposed or used.
+- **Data governance and classification:** provides context for data classification and governance initiatives.
+- **Dependency visibility:** can surface less obvious relationships that may warrant review as potential attack paths.
+- **Threat modeling:** helps identify critical paths and weak points for further analysis.
+- **Hardening:** helps review dependencies that could increase the impact of an issue or affect hardening decisions.
+- **DevSecOps:** provides context for assessing security changes before deployments and migrations.
+- **Change analysis:** helps understand the architecture and affected dependencies before critical changes.
+
+The tool supports investigation and decision-making; identified relationships and risks must be validated in context.
 
 ---
 
@@ -186,7 +207,7 @@ The analysis processes multiple files concurrently, helping it handle larger cod
 - Regular expressions
 - Newtonsoft.Json
 - JSON
-- D3.js-compatible data export
+- Graph-compatible JSON export
 
 ---
 
