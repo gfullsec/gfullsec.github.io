@@ -24,6 +24,12 @@ You can contact me through GitHub or by email. I try to respond to all messages 
 
 ---
 
+### LinkedIn
+
+- Professional profile: <a href="https://www.linkedin.com/in/guillermo-roldán-sienra-7b04a4448" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/guillermo-roldán-sienra-7b04a4448</a>
+
+---
+
 ### Email
 
 - General contact:  **gfullsec@proton.me**

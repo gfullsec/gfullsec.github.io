@@ -457,7 +457,7 @@ Upon completing the transition process, the following will be available:
 
 ---
 
-Last updated: October 2026
+Last updated: November 2026
 
 <div id="footer" data-include="/assets/includes/footer.html"></div>
 <script src="assets/js/header.js?v=8"></script>

@@ -461,7 +461,7 @@ Al completar el proceso de transición se dispondrá de:
 
 ---
 
-Última actualización: Octubre de 2026
+Última actualización: Noviembre de 2026
 
 <div id="footer" data-include="../assets/includes/footer-es.html"></div>
 <script src="../assets/js/header.js?v=8"></script>

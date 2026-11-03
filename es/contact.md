@@ -24,6 +24,12 @@ Puedes contactar conmigo a través de GitHub o por correo electrónico. Intento 
 
 ---
 
+### LinkedIn
+
+- Perfil profesional: <a href="https://www.linkedin.com/in/guillermo-roldán-sienra-7b04a4448" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/guillermo-roldán-sienra-7b04a4448</a>
+
+---
+
 ### Correo electrónico
 
 - Contacto general:  **gfullsec@proton.me**
