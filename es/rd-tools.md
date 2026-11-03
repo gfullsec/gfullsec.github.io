@@ -9,9 +9,9 @@
 
 ## I+D
 
-Esta sección recopila proyectos técnicos desarrollados a lo largo de mi trayectoria profesional y personal que, por motivos de confidencialidad o propiedad intelectual, no pueden publicarse como software de código abierto.
+Esta sección presenta proyectos técnicos seleccionados y herramientas privadas desarrollados a lo largo de mi trayectoria profesional y personal.
 
-En lugar de mostrar implementaciones concretas, el contenido se centra en los problemas abordados, las soluciones diseñadas, las tecnologías utilizadas y el valor aportado en entornos reales.
+Las descripciones se centran en los problemas abordados, las soluciones diseñadas, las tecnologías utilizadas y el valor aportado en entornos reales, sin revelar detalles sensibles de implementación.
 
 Los proyectos presentados reflejan experiencia en análisis de sistemas complejos, automatización, visualización de datos, ingeniería de software y apoyo a procesos de auditoría y ciberseguridad.
 
@@ -141,7 +141,78 @@ Por motivos de confidencialidad y protección de la propiedad intelectual, no se
 
 La información presentada tiene como único objetivo mostrar el enfoque técnico, los desafíos abordados y el valor aportado por la solución desde una perspectiva arquitectónica y metodológica.
 
+# DependencyExplorer
 
+## Visión general
+
+**DependencyExplorer** es una herramienta desarrollada para identificar posibles dependencias entre objetos SQL en sistemas legacy cuyas relaciones no están completamente representadas mediante claves foráneas.
+
+El proyecto surgió ante un problema práctico: al analizar una base de datos legacy sin claves foráneas, el esquema por sí solo no permitía comprender con claridad cómo fluía la lógica de negocio entre los procedimientos almacenados y otros objetos SQL.
+
+DependencyExplorer analiza archivos de código SQL, busca referencias a los nombres de otros objetos y exporta las dependencias inferidas en formato JSON. Los resultados pueden consultarse de forma independiente o utilizarse para ampliar el grafo generado por EyeIDProject.
+
+---
+
+## El problema
+
+En sistemas legacy, algunas dependencias importantes pueden estar expresadas en el código SQL en lugar de declararse mediante claves foráneas. Por ello, el esquema de la base de datos puede no mostrar cómo se relacionan los procedimientos almacenados y otros objetos SQL.
+
+Esto puede dificultar:
+
+- Seguir las posibles dependencias entre objetos SQL.
+- Comprender cómo fluye la lógica de negocio por el sistema.
+- Evaluar qué objetos podrían verse afectados por un cambio.
+- Obtener una visión más amplia del sistema cuando la documentación es incompleta.
+
+---
+
+## La solución
+
+DependencyExplorer analiza archivos SQL e identifica posibles dependencias buscando referencias a los nombres de otros objetos SQL. Registra tanto las dependencias como los objetos dependientes.
+
+Los datos generados pueden explorarse de dos formas:
+
+- **Consulta de un objeto:** cargar los resultados y buscar un objeto concreto para consultar sus posibles dependencias y los objetos que dependen de él.
+- **Visualización global:** generar un archivo JSON compatible con el grafo que EyeIDProject puede consumir para visualizar el conjunto de dependencias.
+
+El análisis procesa varios archivos de forma concurrente, lo que ayuda a trabajar con bases de código de mayor tamaño de forma más eficiente.
+
+---
+
+## Tecnologías utilizadas
+
+- C#
+- .NET 8
+- Procesamiento en paralelo
+- Expresiones regulares
+- Newtonsoft.Json
+- JSON
+- Exportación de datos compatible con D3.js
+
+---
+
+## Aplicaciones en ciberseguridad
+
+El mapeo de posibles dependencias entre objetos SQL puede apoyar el análisis de seguridad y ayudar a:
+
+- Comprender cómo se conecta la lógica relacionada con los datos en un sistema legacy.
+- Identificar objetos y procesos de negocio que podrían requerir una revisión más detallada.
+- Evaluar el posible alcance de cambios en código SQL durante una remediación de seguridad.
+- Aportar contexto arquitectónico a auditorías técnicas y evaluaciones de riesgos.
+
+Los resultados se infieren a partir de referencias textuales en los archivos fuente; sirven como apoyo a la investigación y no sustituyen la validación por parte de los responsables del sistema o de un analista de seguridad.
+
+---
+
+## Valor aportado
+
+DependencyExplorer complementa el análisis del esquema al revelar posibles relaciones que no están declaradas como claves foráneas. La exportación a JSON facilita explorar visualmente estas relaciones, mientras que el procesamiento concurrente permite analizar colecciones más amplias de archivos SQL.
+
+---
+
+## Relación con EyeIDProject
+
+DependencyExplorer se desarrolló como complemento de EyeIDProject. EyeIDProject visualiza las relaciones presentes en el modelo de datos, mientras que DependencyExplorer ayuda a identificar posibles dependencias adicionales en los archivos SQL. Juntos ofrecen una visión más amplia de la estructura de datos y código de un sistema legacy.
 
 <div id="footer" data-include="../assets/includes/footer-es.html"></div>
 <script src="../assets/js/header.js?v=8"></script>
