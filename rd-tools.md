@@ -6,7 +6,7 @@
 
 <div id="header" data-include="/assets/includes/header.html"></div>
 
-## Research and Development (R&D)
+## R&D
 
 This section showcases technical projects developed throughout my professional and personal career that cannot be released as open-source software due to confidentiality or intellectual property constraints.
 
@@ -80,6 +80,7 @@ The result is an overall view that makes the system easier to understand from bo
 - C#
 - D3.js
 - SQL Server
+- Azure SQL Database
 - Oracle Database
 - Azure DevOps
 - CI/CD

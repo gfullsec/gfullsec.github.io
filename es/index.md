@@ -82,7 +82,7 @@ Si quieres conocer el viaje completo, puedes hacerlo en la sección **Plan de tr
 - **Informes** — Informes profesionales de auditoría, vulnerabilidades y SOC  
 
 
-- **Tooling de R&D** — Herramientas privadas y desarrollos internos orientados a seguridad  
+- **I+D** — Proyectos seleccionados y herramientas privadas que reflejan experiencia técnica
 
 
 - **Contacto** — Colaboraciones y consultas
@@ -91,5 +91,3 @@ Si quieres conocer el viaje completo, puedes hacerlo en la sección **Plan de tr
 
 <div id="footer" data-include="../assets/includes/footer-es.html"></div>
 <script src="../assets/js/header.js?v=8"></script>
-
-

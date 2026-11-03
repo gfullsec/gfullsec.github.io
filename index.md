@@ -82,7 +82,7 @@ If you want to explore the full transition plan, you can do so in the **Transiti
 - **Reports** — Professional audit, vulnerability, and SOC reports
 
 
-- **R&D Tools** — Private tools and internal security developments
+- **R&D** — Selected projects and private tools showcasing technical expertise
 
 
 - **Contact** — Collaborations and inquiries
@@ -91,4 +91,3 @@ If you want to explore the full transition plan, you can do so in the **Transiti
 
 <div id="footer" data-include="/assets/includes/footer.html"></div>
 <script src="assets/js/header.js?v=8"></script>
-

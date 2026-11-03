@@ -7,7 +7,7 @@
 <div id="header" data-include="../assets/includes/header-es.html"></div>
 
 
-## Investigación y Desarrollo (R&D)
+## I+D
 
 Esta sección recopila proyectos técnicos desarrollados a lo largo de mi trayectoria profesional y personal que, por motivos de confidencialidad o propiedad intelectual, no pueden publicarse como software de código abierto.
 
@@ -81,6 +81,7 @@ El resultado es una visión global que facilita la comprensión técnica y funci
 - C#
 - D3.js
 - SQL Server
+- Azure SQL Database
 - Oracle Database
 - Azure DevOps
 - CI/CD
