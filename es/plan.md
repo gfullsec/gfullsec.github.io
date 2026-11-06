@@ -28,13 +28,13 @@ Esta página recoge los módulos, proyectos, herramientas y experiencias que for
 
 - ✅ Módulo 5: Scripting para Seguridad
 
-- ⏳ Módulo 6: SOC y Análisis de Logs
+- 🔄 Módulo 6: SOC y Análisis de Logs
 
 - ⏳ Módulo 7: DevSecOps Básico
 
-- ⏳ Módulo 8: Finalización del Portafolio
+- ⏳ Módulo 8: Integración y Revisión Final del Portafolio
 
-**Progreso actual:** 4 módulos completados y 1 módulos en desarrollo.
+**Progreso actual:** 4 módulos completados y 2 módulos en desarrollo.
 
 ---
 
@@ -288,9 +288,9 @@ Proyecto de hardening documentado sobre Windows 11 Pro utilizando controles nati
 
 - <a href="https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/windows" target="_blank" rel="noopener noreferrer">https://github.com/gfullsec/security-analysis-suite/tree/main/hardening/windows</a>
 
-##### Professional Portfolio
+##### Portafolio Profesional
 
-Portfolio profesional desarrollado para documentar proyectos, laboratorios, herramientas y actividades relacionadas con la transición hacia ciberseguridad.
+Portafolio profesional desarrollado para documentar proyectos, laboratorios, herramientas y actividades relacionadas con la transición hacia ciberseguridad.
 
 - Sitio bilingüe (ES/EN).
 - Documentación de proyectos y evidencias.
@@ -305,7 +305,7 @@ Portfolio profesional desarrollado para documentar proyectos, laboratorios, herr
 
 ### Laboratorio Profesional
 
-**Estado:** ⏳ Pendiente
+**Estado:** 🔄 En proceso
 
 #### Objetivos
 
@@ -433,17 +433,20 @@ Los proyectos, resultados y evidencias generados durante este módulo se incorpo
 
 ## Módulo 8
 
-### Finalización del Portafolio
+### Integración y Revisión Final del Portafolio
 
 **Estado:** ⏳ Pendiente
 
 #### Objetivos
 
-- Finalización del portafolio profesional.
+- Integrar en el portafolio los proyectos y evidencias desarrollados durante la transición.
+- Unificar la presentación de los proyectos: objetivo, tecnologías, proceso, resultados y evidencias.
+- Revisar que la documentación y los enlaces sean claros y accesibles.
+- Incluir una visión general que facilite identificar las competencias y el trabajo realizado.
 
 #### Resultado esperado
 
-Disponer de un portafolio completo y estructurado que reúna los proyectos, laboratorios, investigaciones y evidencias desarrolladas durante todo el proceso de transición.
+Un portafolio profesional coherente y fácil de revisar, con proyectos documentados y evidencias que permitan comprender el trabajo realizado, sus resultados y su alcance.
 
 ---
 
@@ -465,4 +468,3 @@ Al completar el proceso de transición se dispondrá de:
 
 <div id="footer" data-include="../assets/includes/footer-es.html"></div>
 <script src="../assets/js/header.js?v=8"></script>
-

@@ -26,13 +26,13 @@ This page gathers the modules, projects, tools, and experiences that are part of
 
 - ✅ Module 5: Security Scripting
 
-- ⏳ Module 6: SOC and Log Analysis
+- 🔄 Module 6: SOC and Log Analysis
 
 - ⏳ Module 7: Basic DevSecOps
 
-- ⏳ Module 8: Portfolio Finalization
+- ⏳ Module 8: Portfolio Integration and Final Review
 
-**Current progress:** 4 modules completed and 1 modules in development.
+**Current progress:** 4 modules completed and 2 modules in development.
 
 ---
 
@@ -300,7 +300,7 @@ Professional portfolio developed to document projects, laboratories, tools, and 
 
 ### Professional Laboratory
 
-**Status:** ⏳ Pending
+**Status:** 🔄 In Progress
 
 #### Objectives
 
@@ -429,17 +429,20 @@ The projects, results, and evidence generated during this module will be incorpo
 
 ## Module 8
 
-### Portfolio Finalization
+### Portfolio Integration and Final Review
 
 **Status:** ⏳ Pending
 
 #### Objectives
 
-- Finalize the professional portfolio.
+- Integrate the projects and evidence developed throughout the transition into the portfolio.
+- Use a consistent format to present each project: objective, technologies, process, results, and evidence.
+- Review the documentation and links for clarity and accessibility.
+- Add an overview that makes the skills developed and work completed easy to identify.
 
 #### Expected result
 
-Have a complete and structured portfolio that brings together the projects, laboratories, research, and evidence developed throughout the entire transition process.
+A coherent, easy-to-review professional portfolio with documented projects and evidence that clearly communicates the work completed, its results, and its scope.
 
 ---
 
