@@ -40,6 +40,19 @@ Mediante técnicas avanzadas de análisis y visualización, la herramienta trans
     </video>
 </div>
 
+<div align="center">
+    <video
+        autoplay
+        loop
+        muted
+        playsinline
+        style="max-width: 900px; width: 100%; border-radius: 12px;"
+    >
+        <source src="../assets/videos/EyeOne2.webm" type="video/webm">
+        Tu navegador no soporta vídeos HTML5.
+    </video>
+</div>
+
 ---
 
 ## El Problema

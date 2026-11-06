@@ -39,6 +39,19 @@ Using advanced analysis and visualization techniques, the tool transforms comple
     </video>
 </div>
 
+<div align="center">
+    <video
+        autoplay
+        loop
+        muted
+        playsinline
+        style="max-width: 900px; width: 100%; border-radius: 12px;"
+    >
+        <source src="/assets/videos/EyeOne2.webm" type="video/webm">
+        Your browser does not support HTML5 video.
+    </video>
+</div>
+
 ---
 
 ## The Problem
