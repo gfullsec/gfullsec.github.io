@@ -42,6 +42,7 @@ This page gathers the modules, projects, tools, and experiences that are part of
 
 - Ubuntu 26.04 LTS
 - Windows 11
+- Kali Linux
 
 #### Security
 

@@ -76,10 +76,12 @@ Si quieres conocer el viaje completo, puedes hacerlo en la sección **Plan de tr
 - **Plan de transición** — Mi evolución técnica y profesional dentro del proceso acelerado de transición a roles de ciberseguridad  
 
 
+<!--
 - **Suite** — Herramientas y proyectos  
 
 
 - **Informes** — Informes profesionales de auditoría, vulnerabilidades y SOC  
+-->
 
 
 - **I+D** — Proyectos seleccionados y herramientas privadas que reflejan experiencia técnica

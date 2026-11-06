@@ -76,10 +76,12 @@ If you want to explore the full transition plan, you can do so in the **Transiti
 - **Transition Plan** — My technical and professional evolution throughout the accelerated transition into cybersecurity roles
 
 
+<!--
 - **Suite** — Tools and projects
 
 
 - **Reports** — Professional audit, vulnerability, and SOC reports
+-->
 
 
 - **R&D** — Selected projects and private tools showcasing technical expertise
